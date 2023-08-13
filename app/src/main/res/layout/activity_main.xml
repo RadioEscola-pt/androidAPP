@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonCat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peguntas de Cat 1" />
+
+    <Button
+        android:id="@+id/exameCat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exame de Cat 1" />
+
+    <Button
+        android:id="@+id/buttonCat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peguntas de Cat 2" />
+
+    <Button
+        android:id="@+id/exameCat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exame de Cat 2" />
+
+    <Button
+        android:id="@+id/buttonCat3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peguntas de Cat 3" />
+
+    <Button
+        android:id="@+id/exameCat3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exame de Cat 3" />
+
+    <TextView
+        android:id="@+id/telegramLinkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="junte se ao Telegraml"
+        android:textColor="@color/linkColor"
+        android:textSize="16sp" />
+
+    <!-- Adding a link to the website -->
+    <TextView
+        android:id="@+id/websiteLinkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visite o noso website"
+        android:textColor="@color/linkColor"
+        android:textSize="16sp" />
+
+</LinearLayout>
