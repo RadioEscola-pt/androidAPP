@@ -17,6 +17,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
             android:text=""
+            android:textColor="@android:color/black"
             android:textSize="18sp" />
 
         <TextView
@@ -93,17 +94,29 @@
                 android:id="@+id/previousButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Previous"
+                style="@style/MetallicBlueButtonStyle"
+                android:text="voltar"
+
+
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/nextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Next"
+                style="@style/MetallicBlueButtonStyle"
+
+                android:text="Proximo"
                 android:visibility="gone" />
 
         </LinearLayout>
-
+        <!--com.google.android.gms.ads.AdView
+            android:id="@+id/questadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-7626624754769711/1333959168" /-->
     </RelativeLayout>
+
 </ScrollView>

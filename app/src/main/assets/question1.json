@@ -2,7 +2,7 @@
   "questions": [
     {
       "numb": 1,
-      "question": "No que respeita às Leis de Kirchhoff qual das seguintes afirmações é verdadeira?,<img src='images/cat1/fig2.png'>,",
+      "question": "No que respeita às Leis de Kirchhoff qual das seguintes afirmações é verdadeira?",
       "answers": [
         "Existem duas leis: a lei dos nós e a lei das malhas",
         "Existem três leis: a lei dos nós, a lei das redes e a lei das malhas",

@@ -8,15 +8,23 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdView;
+
 import java.util.List;
 
 public class MainActivity extends Activity {
     private List<Question> currentQuestions;
-
+    private AdView adView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        //adView = findViewById(R.id.mainAdView);
+        //AdRequest adRequest = new AdRequest.Builder().build();
+        //adView.setAdUnitId("ca-app-pub-7626624754769711/7489724851");
+        //adView.loadAd(adRequest);
 
 
         Button buttonCat1 = findViewById(R.id.buttonCat1);

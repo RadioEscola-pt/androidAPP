@@ -1,8 +1,10 @@
 package com.example.escoladeradioamador;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 public class QuestionFormActivity extends BaseActivity {
 
@@ -27,10 +29,15 @@ public class QuestionFormActivity extends BaseActivity {
 
         if (correctIndex == selectedAnswerIndex + 1) {
             nextButton.setVisibility(View.VISIBLE);
+            Toast.makeText(getApplicationContext(), "CORRECTO", Toast.LENGTH_SHORT).show();
+            answerRadioGroup.setBackgroundColor(Color.GREEN);
         } else {
             nextButton.setVisibility(View.GONE);
+            Toast.makeText(getApplicationContext(), "ERRADO", Toast.LENGTH_SHORT).show();
+            answerRadioGroup.setBackgroundColor(Color.RED);
         }
-        // Process the answer and move to the next question
+
+
         selectedAnswerIndex = -1;
 
         notesTextView.setVisibility(View.VISIBLE);
@@ -42,7 +49,8 @@ public class QuestionFormActivity extends BaseActivity {
         } else {
             previousButton.setVisibility(View.GONE);
         }
-
+        answerRadioGroup.setBackgroundColor(Color.LTGRAY);
+        answerRadioGroup.clearCheck();
         questionNumberTextView.setText("" + currentQuestionIndex);
         if (currentQuestionIndex < questions.size()) {
 
