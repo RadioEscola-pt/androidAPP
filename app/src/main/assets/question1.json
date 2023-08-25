@@ -226,7 +226,7 @@
         "Todas as opções são válidas"
       ],
       "correctIndex": 2,
-      "notes": "O ciclo de trabalho (ou duty cycle, em inglês) se refere à proporção do tempo durante o qual um sinal está ativo (transmitindo) em relação ao tempo total. É importante saber o ciclo de trabalho ao transmitir sinais de dados, pois permite que outras estações tenham oportunidade de transmitir entre os pulsos do sinal de dados. Isso ajuda a evitar colisões e interferências entre transmissões, garantindo que o espectro de frequência seja usado de maneira eficiente e que outras estações também possam se comunicar sem interrupções."
+      "notes": "O ciclo de trabalho, que é a proporção do tempo em que o sinal está ativo em relação ao tempo total, tem um papel fundamental aqui. Se o ciclo de trabalho for muito alto e o sinal estiver ativo a maior parte do tempo, o amplificador do andar final estará funcionando constantemente em sua capacidade máxima, gerando calor contínuo e potencialmente levando a superaquecimento."
     },
     {
       "numb": 18,
@@ -241,7 +241,7 @@
       "notes": "A18"
     },
     {
-      "numb": 18,
+      "numb": 19,
       "question": "Qual das seguintes técncicas costuma ser usada para converter sinais analógicos em digitais?",
       "answers": [
         "Amostragem sequêncial",
@@ -253,7 +253,7 @@
       "notes": " Exames:(<a target='_blank' href='exams/cat1/2014_12_19.pdf'>2014_12_19p38</a>)"
     },
     {
-      "numb": 19,
+      "numb": 20,
       "question": "O bit rate pode ser definido como",
       "answers": [
         "o número de bits por segundo",
@@ -262,10 +262,10 @@
         "a quantidade de informação associada a cada bit transmitido"
       ],
       "correctIndex": 1,
-      "notes": "A19"
+      "notes": ""
     },
     {
-      "numb": 20,
+      "numb": 21,
       "question": "Que parâmetro varia no sinal modulado num sistema de modulação por posição de pulso, vulgarmente designado por PPM (\"Pulse-Position Modulation\")?",
       "answers": [
         "O número de pulsos por segundo",
@@ -277,7 +277,7 @@
       "notes": "A20"
     },
     {
-      "numb": 21,
+      "numb": 22,
       "question": "A que estão associadas as siglas CRC e FEC nas comunicações eletrónicas?",
       "answers": [
         "A diferentes técnicas de modulação analógicas e digitais",
@@ -289,7 +289,7 @@
       "notes": "A21"
     },
     {
-      "numb": 22,
+      "numb": 23,
       "question": "Numa comunicação o bit rate é de 9600. Sabendo que o baud rate é de 4800, qual o número de bits por símbolo/palavra (conjunto de bits com comprimento fixo)?",
       "answers": [
         "2",
@@ -298,10 +298,10 @@
         "16"
       ],
       "correctIndex": 1,
-      "notes": "A22"
+      "notes": "A22 Quando se trata de comunicação digital, o \"bit rate\" (taxa de bits) e o \"baud rate\" (taxa de bauds) são dois conceitos importantes, mas eles podem não ser iguais, especialmente em esquemas de modulação onde mais de um bit é transmitido por símbolo. O número de bits por símbolo/palavra pode variar dependendo do tipo de modulação utilizada.No caso que você mencionou, o bit rate é 9600 e o baud rate é 4800. Isso indica que, em cada baud, dois bits estão sendo transmitidos. Isso ocorre porque o baud rate representa a taxa de mudanças do sinal (ou seja, a frequência com que os símbolos são transmitidos), enquanto o bit rate é a quantidade de bits transmitidos por unidade de tempo."
     },
     {
-      "numb": 23,
+      "numb": 24,
       "question": "Qual das afirmações está correta?",
       "answers": [
         "Duma forma geral e para um dado tipo de comunicação, quanto maior o bit rate menor é a largura de faixa necessária",
@@ -310,7 +310,7 @@
         "Duma forma geral, para um dado tipo de comunicação e para um dado bit rate, a largura de faixa necessária apenas depende da potência refletida pela antena"
       ],
       "correctIndex": 2,
-      "notes": "A23"
+      "notes": "Em geral, à medida que a taxa de bits (bit rate) aumenta em uma comunicação, a largura de banda necessária para transmitir os dados também tende a aumentar. Isso ocorre porque taxas de bits mais altas implicam em mais mudanças de sinal por unidade de tempo, o que requer uma largura de banda mais ampla para acomodar essas mudanças.\n\nA relação entre bit rate e largura de banda está relacionada à teoria da modulação e ao teorema de Nyquist-Shannon. De acordo com o teorema de Nyquist, para evitar interferência entre os símbolos transmitidos, a largura de banda necessária para transmitir um sinal digital está relacionada ao dobro da taxa de bits (2 vezes o bit rate). No entanto, na prática, devido a considerações como formas de onda reais, espectros e outros fatores, é frequentemente necessário um pouco mais de largura de banda do que o mínimo teórico."
     },
     {
       "numb": 24,
@@ -371,18 +371,6 @@
       ],
       "correctIndex": 1,
       "notes": "A28  Exames:(<a target='_blank' href='exams/cat1/2014_05_23.pdf'>2014_05_23p16</a>)"
-    },
-    {
-      "numb": 29,
-      "question": "Num condensador plano constituído por duas superfícies metálicas, separadas por um isolante, a sua capacidade aumenta quando",
-      "answers": [
-        "aumenta a área das superfícies metálicas",
-        "diminui o afastamento entre as superfícies metálicas",
-        "aumenta a constante dielétrica do isolante",
-        "Todas as respostas estão corretas"
-      ],
-      "correctIndex": 3,
-      "notes": "A29"
     },
     {
       "numb": 30,
@@ -532,13 +520,13 @@
       "numb": 39,
       "question": "O primário de um transformador com 100 espiras é percorrido por uma corrente de 10 A. Qual será a corrente no secundário do transformador se este tiver 1000 espiras?",
       "answers": [
-        "1:00 AM",
+        "1 A",
         "10 A",
         "100 A",
         "0,1 A"
       ],
       "correctIndex": 1,
-      "notes": "A39"
+      "notes": "A39  "
     },
     {
       "numb": 40,
@@ -561,12 +549,12 @@
         "O número de espiras no primário deverá ser igual ao número de espiras no secundário",
         "Nenhuma das hipóteses anteriores está correta, pois um transformador nunca poderá servir como transformador de impedâncias"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "notes": "A41"
     },
     {
       "numb": 42,
-      "question": "Um \"display\"de sete segmentos poderá ser contruído com um determinado tipo de díodos. A que tipo de díodos nos referimos?",
+      "question": "Um display de sete segmentos poderá ser contruído com um determinado tipo de díodos. A que tipo de díodos nos referimos?",
       "answers": [
         "Díodos varicaps",
         "Díodos Schottky",
@@ -746,7 +734,7 @@
     },
     {
       "numb": 55,
-      "question": "Qual a vantagem do recurso a circuitos  com AMPOP em comparação com a utilização de elementos LC num filtro de áudio?",
+      "question": "Qual a vantagem do recurso a circuitos com AMPOP em comparação com a utilização de elementos LC num filtro de áudio?",
       "answers": [
         "Os AMPOP são mais resistentes e podem suportar mais excessos do que elementos LC",
         "Os AMPOP apenas funcionam com uma frequência",
@@ -1041,7 +1029,7 @@
         "A tensão e a corrente estão em fase",
         "A tensão e a corrente estão em oposição de fase"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "notes": "A75"
     },
     {
@@ -1150,7 +1138,7 @@
         "Fornece uma carga mínima constante a Q1"
       ],
       "correctIndex": 4,
-      "notes": "O resistor R2 tem como objetivo fornecer uma carga mínima constante à base de Q1, garantindo o funcionamento adequado do transistor e contribuindo para a regulação do circuito."
+      "notes": "A82 O resistor R2 tem como objetivo fornecer uma carga mínima constante à base de Q1, garantindo o funcionamento adequado do transistor e contribuindo para a regulação do circuito."
     },
     {
       "numb": 83,
@@ -1271,6 +1259,18 @@
       ],
       "correctIndex": 2,
       "notes": "A92"
+    },
+    {
+      "numb": 120,
+      "question": "Na figura, qual o objectivo de R1 e R2? <img src='images/cat1/fig7.png'>",
+      "answers": [
+        "Resistências de carga",
+        "Polarização fixa",
+        "Polarização própria",
+        "Realimentação"
+      ],
+      "correctIndex": 2,
+      "notes": " Exames:(<a target='_blank' href='exams/cat1/2011_12_13.pdf'>2011_12_13p25</a>)"
     },
     {
       "numb": 93,
@@ -1798,7 +1798,7 @@
         "Nenhuma das respostas está correta"
       ],
       "correctIndex": 2,
-      "notes": "A127"
+      "notes": "A127 Para trasmitir informaçao de voz numa distancia elevada, só é possivel utilizando a modulação"
     },
     {
       "numb": 128,
@@ -1846,7 +1846,7 @@
         "têm um elevado Q"
       ],
       "correctIndex": 4,
-      "notes": "A131"
+      "notes": "A131 elevado Q (frequencia fixa ou muito reduzida em largura de banda muito estreita) > cristal é o componente para estabilizar a frequência"
     },
     {
       "numb": 132,
@@ -1894,7 +1894,7 @@
         "A classe C não apresenta nenhuma desvantagem relativamente a outras classes de amplificação"
       ],
       "correctIndex": 1,
-      "notes": "A principal desvantagem de se utilizar amplificadores em classe C é a elevada distorção harmónica. Devido à sua condução não linear e limitada durante menos que meio ciclo da forma de onda, os amplificadores em classe C geram uma quantidade significativa de harmónicos na saída, resultando em distorção do sinal amplificado."
+      "notes": "A135 A principal desvantagem de se utilizar amplificadores em classe C é a elevada distorção harmónica. Devido à sua condução não linear e limitada durante menos que meio ciclo da forma de onda, os amplificadores em classe C geram uma quantidade significativa de harmónicos na saída, resultando em distorção do sinal amplificado."
     },
     {
       "numb": 135,
@@ -1906,7 +1906,7 @@
         "A classe C não apresenta nenhuma vantagem em relação a outras classes de amplificação"
       ],
       "correctIndex": 2,
-      "notes": "A135 Exames:(<a target='_blank' href='exams/cat1/2011_12_13.pdf'>2011_12_13p27</a>)"
+      "notes": " Exames:(<a target='_blank' href='exams/cat1/2011_12_13.pdf'>2011_12_13p27</a>)"
     },
     {
       "numb": 136,
@@ -2001,7 +2001,7 @@
         "Tem maior diretividade, o que permite a sua utilização nas comunicações de amador por satélite acima de 30 GHz",
         "Todas as hipóteses estão corretas"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "notes": "A141"
     },
     {
@@ -2397,7 +2397,7 @@
         "foE",
         "flE"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "notes": "A168"
     },
     {
@@ -2419,7 +2419,7 @@
         "Por aumento da potência da estação emissora",
         "Por filtragem na receção, nomeadamente se estiverem situados em zonas com elevado ruído térmico",
         "Por aumento da altura das torres que suportam as antenas de emissão e de receção",
-        "Por arrefecimento dos equipamentos de receção, se estiverem situados a altitudes acima dos 800 m"
+        "Por arrefecimento dos equipamentos receção, se estiverem situados a altitudes acima dos 800 m"
       ],
       "correctIndex": 3,
       "notes": "A170"
@@ -2493,8 +2493,8 @@
         "14 MHz",
         "7 MHz"
       ],
-      "correctIndex": 1,
-      "notes": "A MUF indica a frequência máxima utilizável para comunicações via propagação ionosférica. Se a MUF é de 22 MHz, a melhor faixa para uma boa ligação será a mais próxima dessa frequência, que é a faixa de 28 MHz."
+      "correctIndex": 2,
+      "notes": "A175 A MUF indica a frequência máxima utilizável para comunicações via propagação ionosférica. Se a MUF é de 22 MHz, a melhor faixa para uma boa ligação será a mais próxima dessa frequência, que é a faixa de 21 MHz."
     },
     {
       "numb": 175,
@@ -3038,18 +3038,6 @@
     },
     {
       "numb": 120,
-      "question": "Na figura, qual o objectivo de R1 e R2? <img src='images/cat1/fig7.png'>",
-      "answers": [
-        "Resistências de carga",
-        "Polarização fixa",
-        "Polarização própria",
-        "Realimentação"
-      ],
-      "correctIndex": 2,
-      "notes": " Exames:(<a target='_blank' href='exams/cat1/2011_12_13.pdf'>2011_12_13p25</a>)"
-    },
-    {
-      "numb": 120,
       "question": "Qual dos seguintes códigos digitais se compõem de elementos de comprimentos diferentes",
       "answers": [
         "ASCII",
@@ -3409,18 +3397,6 @@
       "correctIndex": 2
     },
     {
-      "question": "Ao transmitir um sinal de dados, porque razão é importante saber qual o respectivo ciclo de trabalho (duty cycle)?",
-      "answers": [
-        "Para ajudar a sintonizar o transmissor.",
-        "Para evitar quaisquer danos no andar final de saída do transmissor.",
-        "Para permitir que outras estações tenham tempo para interromper a transmissão.",
-        "Todas as opções são válidas."
-      ],
-      "num": 19,
-      "notes": "",
-      "correctIndex": 2
-    },
-    {
       "question": "Qual das seguintes opções assume maior importância ao ajustar os níveis de transmissão por PSK31?",
       "answers": [
         "A potência de saída.",
@@ -3695,6 +3671,18 @@
       "num": 2,
       "notes": "",
       "correctIndex": 2
+    },
+    {
+      "numb": 29,
+      "question": "Num condensador plano constituído por duas superfícies metálicas, separadas por um isolante, a sua capacidade aumenta quando",
+      "answers": [
+        "aumenta a área das superfícies metálicas",
+        "diminui o afastamento entre as superfícies metálicas",
+        "aumenta a constante dielétrica do isolante",
+        "Todas as respostas estão corretas"
+      ],
+      "correctIndex": 4,
+      "notes": "A29"
     },
     {
       "question": "Em que consiste a reactância?",

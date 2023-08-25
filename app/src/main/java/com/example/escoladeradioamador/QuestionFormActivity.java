@@ -16,6 +16,7 @@ public class QuestionFormActivity extends BaseActivity {
 
     }
 
+
     @Override
     protected void init() {
 
@@ -28,11 +29,11 @@ public class QuestionFormActivity extends BaseActivity {
 
 
         if (correctIndex == selectedAnswerIndex + 1) {
-            nextButton.setVisibility(View.VISIBLE);
+
             Toast.makeText(getApplicationContext(), "CORRECTO", Toast.LENGTH_SHORT).show();
             answerRadioGroup.setBackgroundColor(Color.GREEN);
         } else {
-            nextButton.setVisibility(View.GONE);
+
             Toast.makeText(getApplicationContext(), "ERRADO", Toast.LENGTH_SHORT).show();
             answerRadioGroup.setBackgroundColor(Color.RED);
         }
@@ -52,6 +53,12 @@ public class QuestionFormActivity extends BaseActivity {
         answerRadioGroup.setBackgroundColor(Color.LTGRAY);
         answerRadioGroup.clearCheck();
         questionNumberTextView.setText("" + currentQuestionIndex);
+        if (currentQuestionIndex + 1 < questions.size()) {
+            nextButton.setVisibility(View.VISIBLE);
+
+        } else {
+            nextButton.setVisibility(View.GONE);
+        }
         if (currentQuestionIndex < questions.size()) {
 
             Question currentQuestion = questions.get(currentQuestionIndex);

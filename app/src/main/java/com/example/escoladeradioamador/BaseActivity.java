@@ -56,7 +56,7 @@ public abstract class BaseActivity extends Activity {
         previousButton = findViewById(R.id.previousButton);
         noteImageView = findViewById(R.id.noteImageView);
         timerTextView.setVisibility(View.GONE);
-
+        nextButton.setVisibility(View.VISIBLE);
         String fileName = getIntent().getStringExtra("fileName");
         loadQuestionsFromFile(fileName);
 
@@ -165,9 +165,7 @@ public abstract class BaseActivity extends Activity {
 
         selectedAnswerIndex = -1;
         extractImageUrlNotes(currentQuestion.notes);
-        notesTextView.setVisibility(View.GONE);
 
-        nextButton.setVisibility(View.GONE);
         answerRadioGroup.removeAllViews();
         for (int i = 0; i < currentQuestion.answers.size(); i++) {
             RadioButton radioButton = new RadioButton(this);
@@ -181,9 +179,11 @@ public abstract class BaseActivity extends Activity {
 
                 }
             });
+
             answerRadioGroup.addView(radioButton);
         }
-
+        nextButton.setText("Proximo");
+        notesTextView.setVisibility(View.GONE);
 
     }
 

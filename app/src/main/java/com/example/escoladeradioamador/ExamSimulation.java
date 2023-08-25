@@ -55,7 +55,14 @@ public class ExamSimulation extends BaseActivity {
     @Override
     protected void onNextButtonClicked() {
         // Store the selected answer and move to the next question
-        if (currentQuestionIndex < selectedQuestions.size()) {
+        if (currentQuestionIndex + 1 < selectedQuestions.size()) {
+            selectedAnswers.set(currentQuestionIndex, selectedAnswerIndex);
+
+            // Move to the next question
+            nextButton.setText("SUBMETER");
+            currentQuestionIndex++;
+            updateQuestionView();
+        } else if (currentQuestionIndex < selectedQuestions.size()) {
             selectedAnswers.set(currentQuestionIndex, selectedAnswerIndex);
 
             // Move to the next question
@@ -77,9 +84,13 @@ public class ExamSimulation extends BaseActivity {
             previousButton.setVisibility(View.GONE);
         }
 
+
         if (currentQuestionIndex < selectedQuestions.size()) {
             Question currentQuestion = selectedQuestions.get(currentQuestionIndex);
             displayQuestuion(currentQuestion);
+            if (currentQuestionIndex + 1 == selectedQuestions.size()) {
+                nextButton.setText("Finalizar");
+            }
             answerRadioGroup.clearCheck();
 
             // Pre-select the previously chosen answer if available
@@ -114,29 +125,29 @@ public class ExamSimulation extends BaseActivity {
             int selectedAnswer = selectedAnswers.get(i);
             int correctAnswer = selectedQuestions.get(i).correctIndex - 1; // Convert to 0-based index
 
-            results.append("Question: ").append(question).append("\n");
+            results.append("Pergunta").append(question).append("\n");
             if (selectedAnswer == correctAnswer) {
-                results.append("Your Answer: ").append(selectedQuestions.get(i).answers.get(selectedAnswer)).append(" (Correct)\n\n");
+                results.append("resposta: ").append(selectedQuestions.get(i).answers.get(selectedAnswer)).append(" (Correct)\n\n");
                 totalScore += WRITE;
                 correctCount++;
             } else if (selectedAnswer == -1) {
-                results.append("Your Answer: No response\n");
+                results.append("Sem resposta\n");
                 noResponseCount++;
             } else {
-                results.append("Your Answer: ").append(selectedQuestions.get(i).answers.get(selectedAnswer)).append(" (Incorrect)\n");
-                results.append("Correct Answer: ").append(selectedQuestions.get(i).answers.get(correctAnswer)).append("\n\n");
+                results.append("resposta Dada: ").append(selectedQuestions.get(i).answers.get(selectedAnswer)).append(" (Incorrect)\n");
+                results.append("resposta errada: ").append(selectedQuestions.get(i).answers.get(correctAnswer)).append("\n\n");
                 totalScore += WRONG;
                 wrongCount++;
             }
         }
 
         // Display the results in notesTextView with appropriate formatting
-        results.append("\n\nResults Summary:\n");
-        results.append("Correct Answers: ").append(correctCount).append("\n");
-        results.append("Incorrect Answers: ").append(wrongCount).append("\n");
-        results.append("No Responses: ").append(noResponseCount).append("\n");
-        results.append("Total Score: ").append(totalScore).append("\n");
-
+        results.append("\n\nResultado:\n");
+        results.append("Respostas certas: ").append(correctCount).append("\n");
+        results.append("Respostas erradas: ").append(wrongCount).append("\n");
+        results.append("Sem Resposta: ").append(noResponseCount).append("\n");
+        results.append("Total: ").append(totalScore).append("\n");
+        questionTextView.setText("");
         notesTextView.setText(results.toString());
         notesTextView.setVisibility(View.VISIBLE);
         answerRadioGroup.removeAllViews();
