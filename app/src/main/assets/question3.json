@@ -1,7 +1,6 @@
 {
   "questions": [
     {
-      "numb": 1,
       "question": "O Regulamento das Radiocomunicações é uma publicação",
       "answers": [
         "da IARU",
@@ -11,11 +10,11 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p17",
       "img": null,
       "uniqueID": 1
     },
     {
-      "numb": 2,
       "question": "Qual a validade dos Certificados de Amador Nacional (CAN)?",
       "answers": [
         "1 ano",
@@ -29,7 +28,6 @@
       "uniqueID": 2
     },
     {
-      "numb": 3,
       "question": "Se quiser fazer uma chamada geral a todas as estações que abreviatura de operação devo utilizar?",
       "answers": [
         "CW",
@@ -43,21 +41,20 @@
       "uniqueID": 3
     },
     {
-      "numb": 4,
-      "question": "Qual dos seguintes factores não se aplica quando estamos a falar de influência indesejada nos equipamento de uma estação de amador?",
+      "question": "Qual dos seguintes factores não se aplica quando estamos a falar de influência indesejada nos equipamentos de uma estação de amador?",
       "answers": [
         "Sinais indesejados na entrada da antena",
         "Forte campo electromagnético no local onde os equipamentos estão instalados",
         "Instabilidade na alimentação",
-        "Níveis de ondas acústicas extremamente forter no local onde os euipamentos estão instalados"
+        "Níveis de ondas acústicas extremamente fortes no local onde os equipamentos estão instalados"
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p33",
       "img": null,
       "uniqueID": 4
     },
     {
-      "numb": 5,
       "question": "Qual das seguintes não constitui uma obrigação dos utilizadores de estações de amador?",
       "answers": [
         "Não interferir nas comunicações de outras estações de amador",
@@ -67,30 +64,30 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p10",
       "img": null,
       "uniqueID": 5
     },
     {
-      "numb": 6,
       "question": "Que deverei fazer se tiver conhecimento que a minha estação está a provocar interferências?",
       "answers": [
-        "Devo investigar a situação mas não tendo a certeza se a culpa é minha, devo continuar as minhas emisões, apesar das reclamações",
+        "Devo investigar a situação mas não tendo a certeza se a culpa é minha, devo continuar as minhas emissões, apesar das reclamações",
         "Sem prejuízo de investigar mais tarde as causas da interferência, devo continuar a fazer normalmente as minhas comunicações",
-        "Como medida preventiva, devo de imediato desligar a minha estação e só depois de entender a causa da interfrência recomeçar as emissões",
+        "Como medida preventiva, devo de imediato desligar a minha estação e só depois de entender a causa da interferência recomeçar as emissões",
         "Nada terei que fazer até que me provem que realmente existem interferências"
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p37",
       "img": null,
       "uniqueID": 6
     },
     {
-      "numb": 7,
       "question": "Que efeito pode ter um corte numa linha de transmissão de televisão por cabo numa estação de amador?",
       "answers": [
         "Não afecta a estação de amador",
-        "A radiação das harmónicas pode provocar a emisão pela estação de amador de radiações espúrias",
-        "Além da possibilidade do amador interferir quando em emissão, pode causar inteferência na recepção da estação de amador",
+        "A radiação das harmónicas pode provocar a emissão pela estação de amador de radiações espúrias",
+        "Além da possibilidade do amador interferir quando em emissão, pode causar interferência na recepção da estação de amador",
         "Podem ser criadas no cabo tensões muito elevadas quando a estação de amador emite"
       ],
       "correctIndex": 3,
@@ -99,7 +96,6 @@
       "uniqueID": 7
     },
     {
-      "numb": 8,
       "question": "O que está ligado ao fio verde e amarelo numa tomada tripla?",
       "answers": [
         "O neutro",
@@ -113,7 +109,6 @@
       "uniqueID": 8
     },
     {
-      "numb": 9,
       "question": "Quais as sub-faixas que em VHF são permitidas para a operação de estações dos serviços de amador e de amador por satélite",
       "answers": [
         "Segmentos do intervalo 70,1570 - 70,2875 MHz; 144 - 146 MHz",
@@ -127,7 +122,6 @@
       "uniqueID": 9
     },
     {
-      "numb": 10,
       "question": "Para que servem os planos de frequências da IARU?",
       "answers": [
         "Servem para defender os interesses dos fabricantes de equipamentos para os Serviços de Amador e de Amador por Satélite",
@@ -137,16 +131,30 @@
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p14",
+      "img": null,
+      "uniqueID": 210
+    },
+    {
+      "question": "Os planos de frequências da IARU",
+      "answers": [
+        "deverão ser sempre utilizados desde que não colidam com disposições nacionais",
+        "deverão ser respeitados sem restrições",
+        "constituem apenas uma referência, não sendo obrigatória a sua utilização",
+        "estão a cair em desuso tendo e conta a evlução das radiocomunicações"
+      ],
+      "correctIndex": 1,
+      "notes": "Notas",
+      "fonte": "2023_08_18p15",
       "img": null,
       "uniqueID": 10
     },
     {
-      "numb": 11,
       "question": "Qual das seguintes afirmações é incorreta?",
       "answers": [
         "Um amador deverá sempre respeitar as utilizações das várias frequências de acordo com o definido na regulamentação aplicável",
         "Um amador deverá sempre ajudar os menos experientes de forma paciente, educada e desinteressada",
-        "Um amador deverá sempre, manter-se perfeitamete actualizado no que respeita ao conhecimento da legislação aplicável aos serviços de amador e de amador por satélite",
+        "Um amador deverá sempre, manter-se perfeitamente actualizado no que respeita ao conhecimento da legislação aplicável aos serviços de amador e de amador por satélite",
         "Um amador deverá sempre, por solidariedade com outros, causar perturbações no espectro quando acha que os interesses do radioamadorismo estão e causa"
       ],
       "correctIndex": 4,
@@ -155,7 +163,6 @@
       "uniqueID": 11
     },
     {
-      "numb": 12,
       "question": "Não concordo com determinadas disposições regulamentares aplicáveis aos Serviços de Amador e de Amador por Satélite. O que é correto fazer?",
       "answers": [
         "Não as respeitar",
@@ -165,14 +172,14 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08__18p29",
       "img": null,
       "uniqueID": 12
     },
     {
-      "numb": 13,
       "question": "Duma forma geral, as ondas de rádio em espaço livre",
       "answers": [
-        "atenuam-se lineramente com a distância",
+        "atenuam-se linearmente com a distância",
         "atenuam-se de acordo com a lei do inverso do quadrado da distância",
         "não se atenuam com a distância",
         "só se atenuam se se propagarem através do ar"
@@ -183,11 +190,10 @@
       "uniqueID": 13
     },
     {
-      "numb": 14,
-      "question": "Qual das seguints afirmações não está correcta?",
+      "question": "Qual das seguintes afirmações não está correcta?",
       "answers": [
         "Os titulares de CAN, excepto da categoria 3, podem utilizar as suas estações individuais apenas em modo de receção",
-        "Os titulars de CAN podem utilizar estações de uso comum",
+        "Os titulares de CAN podem utilizar estações de uso comum",
         "Os titulares de CAN podem utilizar, de acordo com a sua categoria, estações individuais de outros amadores, com exceção das estações de amadores da categoria 3",
         "Os titulares de CAN, exceto da categoria 3, podem partilhar a utilização das suas estações individuais com outros amadores, de acordo com a sua categoria"
       ],
@@ -197,12 +203,11 @@
       "uniqueID": 14
     },
     {
-      "numb": 15,
       "question": "Qual das seguintes não constitui uma obrigação dos responsáveis pelo funcionamento das estações?",
       "answers": [
         "Assegurar que as estações emitem segundo uma elevação superior a 10º relativamente ao horizonte",
         "Assegurar que as estações respeitam os limites definidos para as radiações não essenciais",
-        "Permitir a ficalização das estações",
+        "Permitir a fiscalização das estações",
         "Colaborar com a ANACOM na resolução de interferências"
       ],
       "correctIndex": 1,
@@ -211,7 +216,6 @@
       "uniqueID": 15
     },
     {
-      "numb": 16,
       "question": "O funcionamento das estações individuais de amador necessita de licença?",
       "answers": [
         "Sim, necessita",
@@ -225,7 +229,6 @@
       "uniqueID": 16
     },
     {
-      "numb": 17,
       "question": "O Indicativo de chamada Ocasional Anual (ICOA) é concedido",
       "answers": [
         "por um mês e é renovável por iguais periodos",
@@ -239,12 +242,11 @@
       "uniqueID": 17
     },
     {
-      "numb": 18,
       "question": "Os indicativos de chamada das estações móveis ou portáteis tê como base",
       "answers": [
         "o indicativo de chamada da estação fixa adicional",
         "o indicativo de chamada consignado a todas as estações de uma dada rede viária",
-        "o indicativo  de chamada da estação fixa principal",
+        "o indicativo de chamada da estação fixa principal",
         "o indicativo de chamada consignado a todas as estações móveis da União Europeia"
       ],
       "correctIndex": 3,
@@ -253,7 +255,6 @@
       "uniqueID": 18
     },
     {
-      "numb": 19,
       "question": "Qual das seguintes afirmações não está correcta?",
       "answers": [
         "Os titulares de CAN, excepto da categoria 3, podem utilizar as suas estações individuais apenas em modo de recepção",
@@ -267,10 +268,23 @@
       "uniqueID": 19
     },
     {
-      "numb": 20,
+      "question": "Duma forma geral e de acordo com as regras em vigor, ao utilizar uma estação de amador da qual não é titular, o amador deve",
+      "answers": [
+        "transmitir o Indicativo de Chamada (IC) da sua estação seguido do IC da estação operada",
+        "transmitir apenas o Indicativo de Chamada (IC) da sua estação, mesmo que não esteja em concursos",
+        "transmitir apenas o Indicativo de Chamada (IC) da sua estação operada, mesmo que não esteja em concursos",
+        "transmitir apenas o Indicativo de Chamada (IC) da estação operada seguido do IC da sua estação"
+      ],
+      "correctIndex": 4,
+      "notes": "Notas",
+      "fonte": "2023_08_18p4",
+      "img": null,
+      "uniqueID": 211
+    },
+    {
       "question": "Quantas estações individuais fixas podem ser utilizadas ao abrigo de um CAN?",
       "answers": [
-        "Apenas uma estaçao fixa",
+        "Apenas uma estação fixa",
         "Duas: uma principal e outra adicional",
         "Três uma principal e duas adicionais",
         "As que pretendem, dado não haver limite para número de estações fixas"
@@ -281,13 +295,12 @@
       "uniqueID": 20
     },
     {
-      "numb": 21,
       "question": "O CAN pode ser suspenso",
       "answers": [
-        "Por um periodo superior a 6 meses e inferior ou igual a 3 anos",
-        "Por um periodo superior a 9 meses e inferior ou igual a 4 anos",
-        "Por um periodo superior a 12 meses e inferior ou igual a 5 anos",
-        "Por um periodo superior a 24 meses e inferior ou igual a 10 anos"
+        "Por um período superior a 6 meses e inferior ou igual a 3 anos",
+        "Por um período superior a 9 meses e inferior ou igual a 4 anos",
+        "Por um período superior a 12 meses e inferior ou igual a 5 anos",
+        "Por um período superior a 24 meses e inferior ou igual a 10 anos"
       ],
       "correctIndex": 3,
       "notes": "Notas",
@@ -295,7 +308,6 @@
       "uniqueID": 21
     },
     {
-      "numb": 22,
       "question": "Quantas estações móveis e estações portáteis podem ser utilizadas ao abrigo de um CAN?",
       "answers": [
         "Apenas uma estação móvel e outra estação portátil",
@@ -309,7 +321,6 @@
       "uniqueID": 22
     },
     {
-      "numb": 23,
       "question": "Qual a validade do Certificado de Amador Nacional (CAN)?",
       "answers": [
         "1 ano",
@@ -323,7 +334,6 @@
       "uniqueID": 23
     },
     {
-      "numb": 24,
       "question": "Quem é responsável pelo funcionamento das estações de uso comum?",
       "answers": [
         "Qualquer amador das categorias 1 ou A",
@@ -337,8 +347,7 @@
       "uniqueID": 24
     },
     {
-      "numb": 25,
-      "question": "Ao abrigo da actual legislação quem tem direiro a um certificado HAREC após aproveitamento em exame?",
+      "question": "Ao abrigo da actual legislação quem tem direito a um certificado HAREC após aproveitamento em exame?",
       "answers": [
         "Os amadores da categoria 1",
         "Os amadores da categoria 2",
@@ -351,21 +360,20 @@
       "uniqueID": 25
     },
     {
-      "numb": 26,
       "question": "Qual das seguintes frases está incorrecta?",
       "answers": [
         "Nas faixas em que os Serviços de Amador ou de Amador por Satélite têm estatuto secundário, as estações de amador não deverão provocar interferências nos serviços com estatuto primário",
-        "Nas faixas em que os serviços de Amador ou de Amador por Satélite têm estatuto secundário, as estações de amador poderão provocar interferências prejudiciais nos serviços com estatuto primário",
+        "Nas faixas em que os Serviços de Amador ou de Amador por Satélite têm estatuto secundário, as estações de amador poderão provocar interferências prejudiciais nos serviços com estatuto primário",
         "Nas faixas em que os Serviços de Amador ou de Amador por Satélite têm estatuto secundário, as estações de amador não poderão reclamar protecção de interferências causadas por estações de serviços com estatuto primário",
-        "Nas faixas em que os Serviço de Amador ou de Amador por Satélite têm estatuto secundário, as estações de amador poderão apenas reclamar protecção de interferências causadas por estações de serviços com estatuto secundário, se as consignações feitas a estes serviços forem posteriores àquelas."
+        "Nas faixas em que os ServiçoS de Amador ou de Amador por Satélite têm estatuto secundário, as estações de amador poderão apenas reclamar protecção de interferências causadas por estações de serviços com estatuto secundário, se as consignações feitas a estes serviços forem posteriores àquelas."
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p19",
       "img": null,
       "uniqueID": 26
     },
     {
-      "numb": 27,
       "question": "De acordo como definido no Regulamento das Radiocomunicações da UIT, que estatutos podem ter os Serviços de Amador ou do Serviço de Amador por Satélite no que respeita à atribuição de frequências?",
       "answers": [
         "Estatutos primário secundário ou permitido",
@@ -379,7 +387,6 @@
       "uniqueID": 27
     },
     {
-      "numb": 28,
       "question": "De acordo com o definido no Artigo 25º do Regulamento das Radiocomunicações, da UIT, quem deverá fixar as potências máximas permitidas às estações de amador?",
       "answers": [
         "A IARU no caso de Portugal e de outros paises da mesma Região",
@@ -393,7 +400,6 @@
       "uniqueID": 28
     },
     {
-      "numb": 29,
       "question": "De acordo com o definido no Artigo 25º do Regulamento das Radiocomunicações, da UIT, quem deverá verificar se uma pessoa tem as qualificações técnicas e operacionais necessárias para operar uma estação de amador?",
       "answers": [
         "A própria UIT",
@@ -407,7 +413,6 @@
       "uniqueID": 29
     },
     {
-      "numb": 30,
       "question": "De acordo com a regulamentação em vigor e tendo em conta o definido no Regulamento das Radiocomunicações, o que é uma estação de amador?",
       "answers": [
         "É uma estação de radiocomunicações do Serviço de Amador ou do Serviço de Amador por Satélite, podendo ter carácter fixo, móvel ou portátil",
@@ -417,11 +422,11 @@
       ],
       "correctIndex": 1,
       "notes": "Notas",
+      "fonte": "2023_08_18p18",
       "img": null,
       "uniqueID": 30
     },
     {
-      "numb": 31,
       "question": "Se ouvir um indicativo de uma estação seguido por /P, o que posso concluir?",
       "answers": [
         "Que a emissão é proveniente de uma estação móvel",
@@ -435,7 +440,6 @@
       "uniqueID": 31
     },
     {
-      "numb": 32,
       "question": "Se ouvir um indicativo de uma estação seguido por /M, o que posso concluir?",
       "answers": [
         "Que a emissão é proveniente de uma estação móvel",
@@ -446,10 +450,23 @@
       "correctIndex": 1,
       "notes": "Notas",
       "img": null,
+      "uniqueID": 212
+    },
+    {
+      "question": "Se ouvir um indicativo de uma estação seguido por /1, o que posso concluir?",
+      "answers": [
+        "Que a emissão é proveniente de uma estação móvel",
+        "Que a emissão é proveniente de uma estação portátil",
+        "Que a emissão é proveniente de uma estação fixa principal",
+        "Que a emissão é proveniente de uma estação fixa adicional"
+      ],
+      "correctIndex": 4,
+      "notes": "Notas",
+      "fonte": "2023_08_18p34",
+      "img": null,
       "uniqueID": 32
     },
     {
-      "numb": 34,
       "question": "Qual é a base da elaboração dos planos da IARU?",
       "answers": [
         "O Regulamento das Radiocomunicações da UIT",
@@ -463,7 +480,6 @@
       "uniqueID": 33
     },
     {
-      "numb": 35,
       "question": "Qual é a base da elaboração dos planos da IARU",
       "answers": [
         "O Regulamento das Radiocomunicações da UIT",
@@ -477,7 +493,6 @@
       "uniqueID": 34
     },
     {
-      "numb": 36,
       "question": "Existem vários planos de frequência da IARU?",
       "answers": [
         "Não, existe apenas um plano para cada três Regiões definidas no Regulamento das Radiocomunicações",
@@ -491,7 +506,6 @@
       "uniqueID": 35
     },
     {
-      "numb": 37,
       "question": "Os planos de frequências da IARU",
       "answers": [
         "Deverão ser sempre utilizados desde que não colidam com disposições nacionais",
@@ -505,7 +519,6 @@
       "uniqueID": 36
     },
     {
-      "numb": 38,
       "question": "As estações de amador podem participar em exercícios de proteção civil?",
       "answers": [
         "Podem desde que obtenham licença da ANACOM para o efeito, devendo para o efeito preencher formulário apropriado",
@@ -515,11 +528,11 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p1",
       "img": null,
       "uniqueID": 37
     },
     {
-      "numb": 39,
       "question": "O que significa a abreviatura de operação MSG?",
       "answers": [
         "Chamada geral a todas as estações",
@@ -529,11 +542,11 @@
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p12",
       "img": null,
       "uniqueID": 38
     },
     {
-      "numb": 40,
       "question": "O que significa a abreviatura de operação R?",
       "answers": [
         "Chamada geral a todas as estações",
@@ -547,7 +560,6 @@
       "uniqueID": 39
     },
     {
-      "numb": 41,
       "question": "O que significa QTH?",
       "answers": [
         "Qual a sua posição?",
@@ -561,7 +573,6 @@
       "uniqueID": 40
     },
     {
-      "numb": 42,
       "question": "O que significa QRK?",
       "answers": [
         "Tem interferências?",
@@ -575,7 +586,6 @@
       "uniqueID": 41
     },
     {
-      "numb": 43,
       "question": "O que significa a abreviatura de operação CQ?",
       "answers": [
         "Chamada geral a todas as estações",
@@ -589,7 +599,6 @@
       "uniqueID": 42
     },
     {
-      "numb": 44,
       "question": "O que significa QSL?",
       "answers": [
         "Tem interferências?",
@@ -603,7 +612,6 @@
       "uniqueID": 43
     },
     {
-      "numb": 45,
       "question": "O que significa a abreviatura de operação BK?",
       "answers": [
         "Chamada geral a todas as estações",
@@ -617,7 +625,6 @@
       "uniqueID": 44
     },
     {
-      "numb": 46,
       "question": "O que significa a abreviatura de operação PSE?",
       "answers": [
         "Chamada geral a todas as estações",
@@ -631,7 +638,6 @@
       "uniqueID": 45
     },
     {
-      "numb": 47,
       "question": "O que significa QRX?",
       "answers": [
         "Tem interferências?",
@@ -645,7 +651,6 @@
       "uniqueID": 46
     },
     {
-      "numb": 48,
       "question": "O que significa QRM?",
       "answers": [
         "Tem interferências?",
@@ -655,11 +660,11 @@
       ],
       "correctIndex": 1,
       "notes": "Notas",
+      "fonte": "2023_08_18p20",
       "img": null,
       "uniqueID": 47
     },
     {
-      "numb": 49,
       "question": "Como se designa no alfabeto fonético o sufixo ANQ?",
       "answers": [
         "Alpha, Novice, Quilo",
@@ -669,11 +674,11 @@
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p26",
       "img": null,
       "uniqueID": 48
     },
     {
-      "numb": 50,
       "question": "Como se designa no alfabeto fonético o sufixo AMT?",
       "answers": [
         "Alpha, Mike, Tango",
@@ -687,7 +692,6 @@
       "uniqueID": 49
     },
     {
-      "numb": 51,
       "question": "Como se designa no alfabeto fonético o sufixo AEU?",
       "answers": [
         "Alpha, Esquilo, Uniform",
@@ -701,7 +705,6 @@
       "uniqueID": 50
     },
     {
-      "numb": 52,
       "question": "Como se designa no alfabeto fonético o sufixo APY?",
       "answers": [
         "Alpha, Paul, Yack",
@@ -715,7 +718,6 @@
       "uniqueID": 51
     },
     {
-      "numb": 53,
       "question": "Como se designa no alfabeto fonético o sufixo ABF?",
       "answers": [
         "Alpha, Beta, Faro",
@@ -729,7 +731,6 @@
       "uniqueID": 52
     },
     {
-      "numb": 54,
       "question": "Porque não se devem manter os equipamentos da estação de amador em operação em armários fechados, mas antes em locais arejados?",
       "answers": [
         "Para ser mais fácil a sua inspeção em ações de fiscalização",
@@ -743,7 +744,6 @@
       "uniqueID": 53
     },
     {
-      "numb": 55,
       "question": "Como se designam usualmente as radiações emitidas pelas antenas que são partes constituintes das estações de radiocomunicações?",
       "answers": [
         "Raios Gama",
@@ -757,7 +757,6 @@
       "uniqueID": 54
     },
     {
-      "numb": 56,
       "question": "Tenho sido interferido de forma intermitente. Mas após aturada investigação, com a ajuda de outros colegas amadores, parece-me que a fonte interferente estará no prédio defronte de mim, onde não existe nenhuma estação de amador. O que é mais correto fazer?",
       "answers": [
         "Aumentar a potência de emissão nas faixas onde sou interferido, para melhorar a relação sinal/ruído",
@@ -767,11 +766,11 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p36",
       "img": null,
       "uniqueID": 55
     },
     {
-      "numb": 57,
       "question": "Como se pode eliminar o ruído conduzido e irradiado por um alternador automóvel?",
       "answers": [
         "Instalando condensadores de filtro em série com o cabo de energia DC, bem como um condensador de bloqueio no cabo field",
@@ -785,7 +784,6 @@
       "uniqueID": 56
     },
     {
-      "numb": 58,
       "question": "Quais dos seguintes sinais podem ser suprimidos dos sinais desejados por um eliminador de ruídos?",
       "answers": [
         "Sinais que são constantes em todas as frequências intermédias",
@@ -799,13 +797,12 @@
       "uniqueID": 57
     },
     {
-      "numb": 59,
       "question": "Qual dos seguintes tipos de ruído na recepção pode ser reduzido usando um\n noise blanker?",
       "answers": [
         "Ruído de ignição",
         "Ruído branco na banda larga",
         "Interferência heteródina",
-        "Todas as opções são\n válidas"
+        "Todas as opções são válidas"
       ],
       "correctIndex": 1,
       "notes": "Notas",
@@ -813,7 +810,6 @@
       "uniqueID": 58
     },
     {
-      "numb": 60,
       "question": "Como se pode eliminar o ruído de um motor eléctrico?",
       "answers": [
         "Instalando um grão de ferrite na linha CA utilizada para alimentar o motor",
@@ -827,13 +823,12 @@
       "uniqueID": 59
     },
     {
-      "numb": 61,
       "question": "Qual dos seguintes tipos de ruído na recepção pode ser reduzido usando um\n filtro DSP para redução de ruído?",
       "answers": [
         "Ruído branco na banda larga",
         "Ruído de ignição",
         "Ruído na linha eléctrica",
-        "Todas as opções são\n válidas"
+        "Todas as opções são válidas"
       ],
       "correctIndex": 4,
       "notes": "Notas",
@@ -841,7 +836,6 @@
       "uniqueID": 60
     },
     {
-      "numb": 62,
       "question": "Qual a desvantagem da utilização de alguns filtros notch DSP automáticos ao tentar copiar sinais CW?",
       "answers": [
         "O filtro DSP pode eliminar o sinal desejado ao mesmo tempo que elimina os sinais interferentes",
@@ -855,7 +849,6 @@
       "uniqueID": 61
     },
     {
-      "numb": 63,
       "question": "Qual das seguintes afirmações não está correcta?",
       "answers": [
         "A filtragem é desejável na recepção para rejeitar sinais não desejados",
@@ -869,7 +862,6 @@
       "uniqueID": 62
     },
     {
-      "numb": 64,
       "question": "Que tipo de filtro é geralmente utilizado para reduzir as radiações harmónicas de um emissor?",
       "answers": [
         "Filtro passa alto",
@@ -883,7 +875,6 @@
       "uniqueID": 63
     },
     {
-      "numb": 65,
       "question": "Um emissor está a produzir emissões espúrias em frequências abaixo e acima da sua frequência nominal. Qual o tipo de filtragem mais adequado?",
       "answers": [
         "Filtro passa alto",
@@ -897,7 +888,6 @@
       "uniqueID": 64
     },
     {
-      "numb": 66,
       "question": "Qual das seguintes opções deverá ser instalada se uma estação de amador que funcione devidamente interferir numa\n ligação telefónica próxima?",
       "answers": [
         "Um filtro RFI no transmissor",
@@ -911,7 +901,6 @@
       "uniqueID": 65
     },
     {
-      "numb": 67,
       "question": "Em VHF, quais as sub-faixas em que podem operar estações dos serviços de amador e de amador por satélite?",
       "answers": [
         "Segmentos do intervalo 70,1570 - 70,2875 MHz; 142 - 144 MHz",
@@ -921,11 +910,11 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p25",
       "img": null,
       "uniqueID": 66
     },
     {
-      "numb": 68,
       "question": "A antena isotrópica e o dipolo de meia onda são antenas de referência para",
       "answers": [
         "o cálculo da p.a.r. e da p.i.r.e, respetivamente",
@@ -939,7 +928,6 @@
       "uniqueID": 67
     },
     {
-      "numb": 69,
       "question": "A antena isotrópica e o dipolo de meia onda são antenas de referência para",
       "answers": [
         "o cálculo da p.a.r. e da p.i.r.e, respetivamente",
@@ -953,7 +941,6 @@
       "uniqueID": 68
     },
     {
-      "numb": 70,
       "question": "Numa estação de amador em emissão, a potência aparente radiada (p.a.r.) é função",
       "answers": [
         "da potência de saída do emissor, das perdas da linha de transmissão que o liga à antena e do ganho desta",
@@ -967,7 +954,6 @@
       "uniqueID": 69
     },
     {
-      "numb": 71,
       "question": "Qual dos seguintes componentes nunca faz parte de um receptor?",
       "answers": [
         "Desmodulador",
@@ -981,7 +967,6 @@
       "uniqueID": 70
     },
     {
-      "numb": 72,
       "question": "Uma estação exclusivamente de receção pode ser constituída pelos seguintes equipamentos:",
       "answers": [
         "antena, \"baixada\" da antena, recetor e amplificador de potência de saída",
@@ -995,7 +980,6 @@
       "uniqueID": 71
     },
     {
-      "numb": 73,
       "question": "Um emissor de radiocomunicações de amador destina-se a",
       "answers": [
         "emitir nas faixas de amador e que é sintonizável",
@@ -1005,16 +989,16 @@
       ],
       "correctIndex": 1,
       "notes": "Notas",
+      "fonte": "2023_08_18p3",
       "img": null,
       "uniqueID": 72
     },
     {
-      "numb": 74,
       "question": "Qual a sequência correcta de ligação de uma estação emissora?",
       "answers": [
         "Ligação de alimentação do emissor, comutação do interruptor \"on-off\" para \"on\", ligação do cabo da baixada ao emissor, ligação do cabo de baixada à antena",
-        "Comutação do interruptor on-off para \"on\", ligação do cabo da baixada ao emissor, ligação da alimentaçao do emissor, ligação do cabo da baixada à antena",
-        "Ligação do cabo da baixada à antena, ligação do cabo da baixada ao emissor, ligação da alimentação do emissor, comutação do interuptor on-off para \"on\"",
+        "Comutação do interruptor on-off para \"on\", ligação do cabo da baixada ao emissor, ligação da alimentação do emissor, ligação do cabo da baixada à antena",
+        "Ligação do cabo da baixada à antena, ligação do cabo da baixada ao emissor, ligação da alimentação do emissor, comutação do interruptor on-off para \"on\"",
         "Qualquer das sequências anteriores estão correctas, pois é indiferente a forma como se liga"
       ],
       "correctIndex": 3,
@@ -1023,7 +1007,6 @@
       "uniqueID": 73
     },
     {
-      "numb": 75,
       "question": "Qual dos seguintes componentes nunca faz parte de um emissor?",
       "answers": [
         "Desmodulador",
@@ -1037,7 +1020,6 @@
       "uniqueID": 74
     },
     {
-      "numb": 76,
       "question": "Qual dos seguintes componentes nunca faz parte de um emissor",
       "answers": [
         "Filtro de saída",
@@ -1051,7 +1033,6 @@
       "uniqueID": 75
     },
     {
-      "numb": 77,
       "question": "Qual dos seguintes componentes nunca faz parte de um recetor?",
       "answers": [
         "Microfone",
@@ -1065,7 +1046,6 @@
       "uniqueID": 76
     },
     {
-      "numb": 78,
       "question": "Um dos elementos essenciais de um receptor é um",
       "answers": [
         "Microfone",
@@ -1075,17 +1055,17 @@
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p27",
       "img": null,
       "uniqueID": 77
     },
     {
-      "numb": 79,
       "question": "Qual das seguintes afirmações não está correcta?",
       "answers": [
         "As ondas de rádio não precisam de suporte físico para se propagar, ou seja, propagam-se no vazio",
         "As ondas de rádio precisam de suporte físico para se propagar, ou seja, não se propagam no vazio",
         "As ondas de rádio duma forma geral atravessam a matéria, ou seja, podemos receber as referidas ondas no interior das nossas casas",
-        "As ondas de rádio duma forma geral propagam-se sem necesidade de guia artifical e por esse facto foram fundamentais no desenvolvimento de comunicações móveis"
+        "As ondas de rádio duma forma geral propagam-se sem necessidade de guia artificial e por esse facto foram fundamentais no desenvolvimento de comunicações móveis"
       ],
       "correctIndex": 2,
       "notes": "Notas",
@@ -1093,7 +1073,6 @@
       "uniqueID": 78
     },
     {
-      "numb": 80,
       "question": "Qual dos mecanismos não é relevante para um bom funcionamento de uma estação de amador?",
       "answers": [
         "Boa ligação à terra dos equipamentos",
@@ -1107,7 +1086,6 @@
       "uniqueID": 79
     },
     {
-      "numb": 81,
       "question": "No estabelecimento e desenvolvimento das comunicações de amador é fundamental",
       "answers": [
         "ser educado",
@@ -1121,7 +1099,6 @@
       "uniqueID": 80
     },
     {
-      "numb": 82,
       "question": "Quais os fatores que afetam a maior ou menor exposição da população a campos electromagnéticos perto de uma estação de amador?",
       "answers": [
         "Nível de potência emitida",
@@ -1135,7 +1112,6 @@
       "uniqueID": 81
     },
     {
-      "numb": 83,
       "question": "Como se designam usualmente as radiações emitidas pelas antenas que são partes constituintes da estações de radiocomunicações?",
       "answers": [
         "Raios Gama",
@@ -1149,7 +1125,6 @@
       "uniqueID": 82
     },
     {
-      "numb": 84,
       "question": "Nos planos da IARU para a Região 1, quais as aplicações que duma forma geral têm faixas exclusivas em HF?",
       "answers": [
         "As frequências dos repetidores",
@@ -1163,7 +1138,6 @@
       "uniqueID": 83
     },
     {
-      "numb": 85,
       "question": "Quantas letras tem o sufixo de um Indicativo de Chamada (IC) consignado a uma estação de amador fixa principal ao abrigo do actual quadro reglamentar?",
       "answers": [
         "1 a 4 letras",
@@ -1177,7 +1151,6 @@
       "uniqueID": 84
     },
     {
-      "numb": 86,
       "question": "Quantos caracteres tem o sufixo de um Indicativo de Chamada  (IC) consignado a uma estação de uso comum ao abrigo do actual quadro regulamentar?",
       "answers": [
         "1 a 4 caracteres, o último dos quais deverá ser uma letra",
@@ -1191,7 +1164,6 @@
       "uniqueID": 85
     },
     {
-      "numb": 87,
       "question": "Qua a validade das licenças de amador de uso comum?",
       "answers": [
         "1 ano",
@@ -1205,12 +1177,11 @@
       "uniqueID": 86
     },
     {
-      "numb": 88,
       "question": "Estive a fazer uma análise espectral das minhas emissões e parece-me que tenho uma espúrias não conformes com a regulamentação aplicável. O que devo fazer?",
       "answers": [
         "Não emitir enquanto a situação não estiver resolvida, se necessário com a ajuda de amadores mais experientes",
         "Nada, enquanto não tiver reclamações",
-        "Reduzir um pouco s potência a ver se ninguém reclama",
+        "Reduzir um pouco a potência a ver se ninguém reclama",
         "Abandonar a actividade pois acho que nunca vou resolver este problema"
       ],
       "correctIndex": 1,
@@ -1219,7 +1190,6 @@
       "uniqueID": 87
     },
     {
-      "numb": 89,
       "question": "Estou a ser interferido por outro amador. O que devo fazer?",
       "answers": [
         "Chegar a acordo com o outro amador, no sentido que as interferências não voltem a ocorrer",
@@ -1229,11 +1199,11 @@
       ],
       "correctIndex": 1,
       "notes": "Notas",
+      "fonte": "2023_08_18p38",
       "img": null,
       "uniqueID": 88
     },
     {
-      "numb": 90,
       "question": "Qual a validade máxima de um Indicativo de Chamada Ocasional (ICO)?",
       "answers": [
         "Dois dias consecutivos ",
@@ -1247,7 +1217,6 @@
       "uniqueID": 89
     },
     {
-      "numb": 91,
       "question": "Qual a validade máxima de um indicativo de Chamada Ocasional (ICO)?",
       "answers": [
         "Dois dias",
@@ -1261,7 +1230,6 @@
       "uniqueID": 90
     },
     {
-      "numb": 92,
       "question": "Qual dos seguintes indicativos de chamada não poderá ser consignado a estações de amador?",
       "answers": [
         "Indicativo de chamada de estação móvel acessória",
@@ -1275,7 +1243,6 @@
       "uniqueID": 91
     },
     {
-      "numb": 93,
       "question": "Qual das seguintes faixas de VHF tem em Portugal os limites preconizados pela IARU",
       "answers": [
         "70,1570 - 70,2875 MHz",
@@ -1285,11 +1252,11 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p16",
       "img": null,
       "uniqueID": 92
     },
     {
-      "numb": 94,
       "question": "Porque se deve utilizar uma carga artificial quando estamos a testar um emissor?",
       "answers": [
         "Para diminuir de forma significativa o consumo de energia",
@@ -1303,7 +1270,6 @@
       "uniqueID": 93
     },
     {
-      "numb": 95,
       "question": "De acordo com o regulamento das Radiocomunicações e para efeitos de atribuição de frequências a Serviços de Radiocomunicações, em quantas Regiões está dividido o Mundo?",
       "answers": [
         1,
@@ -1317,7 +1283,6 @@
       "uniqueID": 94
     },
     {
-      "numb": 96,
       "question": "De acordo com o regulamento das Radiocomunicações e para efeitos de atribuição de frequências a Serviços de Radiocomunicações, em que Região se situa Portugal?",
       "answers": [
         "Região 1",
@@ -1331,7 +1296,6 @@
       "uniqueID": 95
     },
     {
-      "numb": 97,
       "question": "Qual das seguintes afirmações está correta?",
       "answers": [
         "As ondas de rádio são ondas sonoras",
@@ -1345,12 +1309,11 @@
       "uniqueID": 96
     },
     {
-      "numb": 98,
       "question": "Que efeito pode ter uma linha de transmissão de televisão por cabo, a radiar por deficiente instalação, numa estação de amador?",
       "answers": [
         "Não afeta a estação de amador",
-        "As radiações produzidas pela linha de transmissão podem provocar isntabilidades na emissão da estação de amador",
-        "Além da possibilidade da estação de amador interferir na instalação de televisao",
+        "As radiações produzidas pela linha de transmissão podem provocar instabilidades na emissão da estação de amador",
+        "Além da possibilidade da estação de amador interferir na instalação de televisão",
         "Podem ser criadas na linha de transmissão tensões muito elevadas quando a estação de amador emite, pondo em risco a segurança das pessoas"
       ],
       "correctIndex": 3,
@@ -1359,7 +1322,6 @@
       "uniqueID": 97
     },
     {
-      "numb": 99,
       "question": "Tive conhecimento que um colega amador está com problemas na sua estação, pois os seus vizinhos reclamam que não conseguem ver televisão em condições. O que devo fazer?",
       "answers": [
         "Como não o conheço, o melhor é não me meter",
@@ -1373,7 +1335,6 @@
       "uniqueID": 98
     },
     {
-      "numb": 100,
       "question": "Existindo possibilidade de uma estação de amador interferir uma estação/instalação de recepção de radiodifusão televisiva localizada na proximidade, qual dos mecanismos é menos relevante na diminuição da probalidade de interferências?",
       "answers": [
         "Aumento da distância entre as antenas de emissão da estação de amador e as antenas de receção de radiodifusão televisiva",
@@ -1387,7 +1348,6 @@
       "uniqueID": 99
     },
     {
-      "numb": 101,
       "question": "Quanto maior é a potência radiada por uma estação de amador numa determinada frequência",
       "answers": [
         "maior é a intensidade de campo num dado ponto do espaço, a uma dada distância, nessa frequência",
@@ -1401,7 +1361,6 @@
       "uniqueID": 100
     },
     {
-      "numb": 102,
       "question": "Numa comunicação senti-me ofendido pelas palavras que me foram dirigidas por um colega amador. O que é mais correto fazer?",
       "answers": [
         "Queixar-me à ANACOM",
@@ -1411,25 +1370,25 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p28",
       "img": null,
       "uniqueID": 101
     },
     {
-      "numb": 103,
       "question": "Quais dos seguintes cuidados não é relevante do ponto de vista da segurança nas instalações onde estão os equipamentos da estação?",
       "answers": [
-        "Existência de mecanismos de proteção, tais como disjuntores dedicados, nas bancadas onde estão isntalados e são alimentados os equipamentos",
+        "Existência de mecanismos de proteção, tais como disjuntores dedicados, nas bancadas onde estão instalados e são alimentados os equipamentos",
         "Sempre que os equipamentos são alimentados por baterias, verificar as polaridades quando se está a fazer a ligação",
         "Nunca manusear os equipamentos com as mãos molhadas",
         "Usar sempre máscara no nariz e na boca quando se estão a operar os equipamentos da estação para proteger as vias respiratórias"
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p22",
       "img": null,
       "uniqueID": 102
     },
     {
-      "numb": 104,
       "question": "Posso utilizar estações a bordo de aeronaves?",
       "answers": [
         "Não",
@@ -1443,7 +1402,6 @@
       "uniqueID": 103
     },
     {
-      "numb": 105,
       "question": "A interrupção de uma comunicação em curso",
       "answers": [
         "pode ser feita a todo o momento",
@@ -1453,11 +1411,11 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p2",
       "img": null,
       "uniqueID": 104
     },
     {
-      "numb": 106,
       "question": "As siglas RV e RU usadas em Portugal de acordo com as recomendações da IARU",
       "answers": [
         "designam indicativos de chamada de estações repetidoras em VHF e UHF",
@@ -1471,20 +1429,20 @@
       "uniqueID": 105
     },
     {
-      "numb": 107,
       "question": "Dos seguintes tipos de antenas qual o que tem maior directividade",
       "answers": [
+        "Dipolo dobrado",
         "Antena vertical de quarto de onda (ground plane)",
         "Antena multi elementos (tipo yagi)",
         "Antena de meio comprimento de onda"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p13",
       "img": null,
       "uniqueID": 106
     },
     {
-      "numb": 108,
       "question": "De acordo com o regulamento das Radiocomunicações, o Serviço de Amador por Satélite:",
       "answers": [
         "É o mesmo serviço que o Serviço de Amador",
@@ -1498,7 +1456,6 @@
       "uniqueID": 107
     },
     {
-      "numb": 109,
       "question": "Qual a expressão usada para sinal de perigo?",
       "answers": [
         "HELP",
@@ -1512,7 +1469,6 @@
       "uniqueID": 108
     },
     {
-      "numb": 110,
       "question": "Qual a sequência de símbolos usados em telegrafia para sinal de perigo?",
       "answers": [
         ". . . - - - . . .",
@@ -1526,7 +1482,6 @@
       "uniqueID": 109
     },
     {
-      "numb": 111,
       "question": "O cabo de alimentação de um ferro de soldar tem os condutores “à vista”. A que pode este facto dar origem?",
       "answers": [
         "Choque elétrico e curto circuito",
@@ -1540,7 +1495,6 @@
       "uniqueID": 110
     },
     {
-      "numb": 112,
       "question": "Qual é a banda lateral mais utilizada nas\n faixas VHF e UHF?",
       "answers": [
         "Banda lateral\n superior",
@@ -1554,7 +1508,6 @@
       "uniqueID": 111
     },
     {
-      "numb": 113,
       "question": "Nas comunicações a longa distância são particularmente usadas as faixas de?",
       "answers": [
         "UHF",
@@ -1568,7 +1521,6 @@
       "uniqueID": 112
     },
     {
-      "numb": 114,
       "question": "A reflexão ionosférica é um mecanismo de propagação de ondas com especial relevância nas faixas de",
       "answers": [
         "HF",
@@ -1582,7 +1534,6 @@
       "uniqueID": 113
     },
     {
-      "numb": 115,
       "question": "Que outra designação têm as faixas métricas?",
       "answers": [
         "HF",
@@ -1596,7 +1547,6 @@
       "uniqueID": 114
     },
     {
-      "numb": 116,
       "question": "Que outra designação têm as faixas decimétricas?",
       "answers": [
         "HF",
@@ -1610,7 +1560,6 @@
       "uniqueID": 115
     },
     {
-      "numb": 117,
       "question": "Que outra designação têm as faixas centimétricas?",
       "answers": [
         "HF",
@@ -1624,7 +1573,6 @@
       "uniqueID": 116
     },
     {
-      "numb": 118,
       "question": "Qual a velocidade, aproximada da propagação das ondas rádio no espaço?",
       "answers": [
         "300 000 km/s",
@@ -1638,7 +1586,6 @@
       "uniqueID": 117
     },
     {
-      "numb": 119,
       "question": "Qual das seguintes afirmações não é correcta?",
       "answers": [
         "A onda média utiliza-se fundamentalmente em comunicações a média distância",
@@ -1652,7 +1599,6 @@
       "uniqueID": 118
     },
     {
-      "numb": 120,
       "question": "A minha estação está a ser fortemente interferida. O que devo fazer?",
       "answers": [
         "Reclamar de imediato para o ICP-ANACOM",
@@ -1666,12 +1612,11 @@
       "uniqueID": 119
     },
     {
-      "numb": 121,
       "question": "Estou a ser fortemente interferido. O que devo fazer?",
       "answers": [
         "Reclamar de imediato para o ICP-ANACOM",
         "Emitir com a maior potência possível nessa frequência para manifestar o meu desagrado",
-        "Esperar que a intererência passo, pois podemos estar em presença de fenómenos anómalor de propagação",
+        "Esperar que a intererência passo, pois podemos estar em presença de fenómenos anómalos de propagação",
         "Seguir os procedimentos publicados pelo ICP-ANACOM"
       ],
       "correctIndex": 4,
@@ -1680,10 +1625,9 @@
       "uniqueID": 120
     },
     {
-      "numb": 122,
       "question": "Uma vizinha minha diz que de vez em quando tem interferências na recepção de televisão e veio perguntar se não seria das minhas emisões. O que é correcto fazer?",
       "answers": [
-        "Nada, pois eu estou a trabalhar nas faixas corretcas e o problema deve ser da minha instalação de recepção de televisão",
+        "Nada, pois eu estou a trabalhar nas faixas correctas e o problema deve ser da minha instalação de recepção de televisão",
         "Investigar a situação e se for problema dela, caberá a ela a resolução do problema",
         "Investigar a situação e se concluir que o problema é das minhas emissões, emitir às horas que ela não vê televisão",
         "Se o problema for na minha estação, investigar e resolver a situação ou ajudar a resolver a situação se o problema for da instalação de recepção."
@@ -1694,7 +1638,6 @@
       "uniqueID": 121
     },
     {
-      "numb": 123,
       "question": "Qual a melhor maneira de reduzir a possibilidade de causar interferências quando se testa um emissor?",
       "answers": [
         "Usar uma pequena antena no interior dum edificio",
@@ -1704,11 +1647,11 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p35",
       "img": null,
       "uniqueID": 122
     },
     {
-      "numb": 124,
       "question": "Quais as definições que deverão ser consideradas como de referência para os vários tipos de interferências",
       "answers": [
         "As definições do Regulamento das Radiocomunicações da UIT",
@@ -1722,7 +1665,6 @@
       "uniqueID": 123
     },
     {
-      "numb": 125,
       "question": "Constitui obrigação ética do amador",
       "answers": [
         "falar muito rapidamente",
@@ -1736,7 +1678,6 @@
       "uniqueID": 124
     },
     {
-      "numb": 126,
       "question": "O amador deverá",
       "answers": [
         "estar atento ao desenvolvimento do conhecimento científico das radiocomunicações",
@@ -1750,7 +1691,6 @@
       "uniqueID": 125
     },
     {
-      "numb": 127,
       "question": "Qual das seguintes afirmações é falsa?",
       "answers": [
         "Um amador nunca deve interromper uma comunicação, a menos que se trate duma situação de emergência",
@@ -1764,7 +1704,6 @@
       "uniqueID": 126
     },
     {
-      "numb": 128,
       "question": "O amador não devera ser",
       "answers": [
         "Leal",
@@ -1778,7 +1717,6 @@
       "uniqueID": 127
     },
     {
-      "numb": 129,
       "question": "Qual das seguintes afirmações é falsa?",
       "answers": [
         "Um amador deverá sempre respeitar as utilizações das várias frequências de acordo com o definido na regulamentação aplicável",
@@ -1792,7 +1730,6 @@
       "uniqueID": 128
     },
     {
-      "numb": 130,
       "question": "Um amador deverá sempre",
       "answers": [
         "Proceder às suas emissões mesmo que interrompendo outros",
@@ -1802,11 +1739,11 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p30",
       "img": null,
       "uniqueID": 129
     },
     {
-      "numb": 131,
       "question": "Qual das seguintes classes de emissão designa uma modulação de frequência?",
       "answers": [
         "A3E",
@@ -1820,10 +1757,9 @@
       "uniqueID": 130
     },
     {
-      "numb": 132,
       "question": "Um receptor de radiocomunicações de amador destina-se a",
       "answers": [
-        "receber todas as comunicações nas faixas de amador em que é sintonizavel.",
+        "receber todas as comunicações nas faixas de amador em que é sintonizável.",
         "receber todas as comunicações mesmo nas faixas de amador em que não é sintonizável",
         "receber todo o tipo de comunicações em todas as faixas do espectro",
         "nenhuma das respostas anteriores está correcta"
@@ -1834,7 +1770,6 @@
       "uniqueID": 131
     },
     {
-      "numb": 133,
       "question": "Existem frequências internacionais de emergência e de segurança no âmbito dos Serviços de Amador e de Amador por Satélite? Em caso afirmativo onde podem ser consultadas?",
       "answers": [
         "Sim. No Regulamento das Radiocomunicações da UIT",
@@ -1848,7 +1783,6 @@
       "uniqueID": 132
     },
     {
-      "numb": 134,
       "question": "Onde posso consultar as faixas de frequências atribuídas aos Serviços de Amador e de Amador por Satélite em Portugal?",
       "answers": [
         "No sítio da internet da CEPT",
@@ -1862,21 +1796,6 @@
       "uniqueID": 133
     },
     {
-      "numb": 135,
-      "question": "O Regulamento das Radiocomunicações é um publicação",
-      "answers": [
-        "da IARU",
-        "da CEPT",
-        "da UIT",
-        "da NATO"
-      ],
-      "correctIndex": 3,
-      "notes": "Notas",
-      "img": null,
-      "uniqueID": 134
-    },
-    {
-      "numb": 136,
       "question": "Qual a entidade que consigna indicativos de chamada às estações dos Serviços de Amador e de Amador  por Satélite?",
       "answers": [
         "IARU",
@@ -1890,7 +1809,6 @@
       "uniqueID": 135
     },
     {
-      "numb": 137,
       "question": "Porque é importante termos uma boa adaptação de impedâncias numa estação de recepção?",
       "answers": [
         "Por questões de segurança, minimizando-se o efeito das descargas atmosféricas",
@@ -1904,7 +1822,6 @@
       "uniqueID": 136
     },
     {
-      "numb": 138,
       "question": "Duma forma geral, as ondas de rádio em espaço livre",
       "answers": [
         "atenuam-se linearmente com a distância",
@@ -1918,7 +1835,6 @@
       "uniqueID": 137
     },
     {
-      "numb": 139,
       "question": "O Indicativo de Chamada Ocasional Anual (ICOA) é concedido",
       "answers": [
         "por um mês e é renovável por iguais períodos",
@@ -1932,7 +1848,6 @@
       "uniqueID": 138
     },
     {
-      "numb": 140,
       "question": "Uma estação repetidora em Portugal Continental (área geográfica POR) tem o prefixo",
       "answers": [
         "CR0",
@@ -1946,7 +1861,6 @@
       "uniqueID": 139
     },
     {
-      "numb": 141,
       "question": "Uma estação repetidora de fonia analógica em Portugal Continental (região POR) tem o prefixo",
       "answers": [
         "CR0",
@@ -1960,7 +1874,6 @@
       "uniqueID": 140
     },
     {
-      "numb": 142,
       "question": "Uma estação repetidora de fonia analógica em Portugal Continental (região POR) tem o prefixo",
       "answers": [
         "CR0",
@@ -1974,7 +1887,6 @@
       "uniqueID": 141
     },
     {
-      "numb": 143,
       "question": "Qual o prefixo consignado às estações de uso comum pertencentes a entidades competentes no âmbito da proteção civil?",
       "answers": [
         "CT0",
@@ -1988,7 +1900,6 @@
       "uniqueID": 142
     },
     {
-      "numb": 144,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 2 na Região Autónoma dos Açores (área geográfica AZR) tem o prefixo",
       "answers": [
         "CT8 ",
@@ -1998,11 +1909,11 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p6",
       "img": null,
       "uniqueID": 143
     },
     {
-      "numb": 145,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 1 na Região Autónoma da Madeira (área geográfica MDR) tem o prefixo",
       "answers": [
         "CT9 ",
@@ -2016,7 +1927,6 @@
       "uniqueID": 144
     },
     {
-      "numb": 146,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 3 na Região Autónoma da Madeira (área geográfica MDR) tem o prefixo",
       "answers": [
         "CT9 ",
@@ -2030,7 +1940,6 @@
       "uniqueID": 145
     },
     {
-      "numb": 147,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 1 em Portugal Continental (área geográfica POR) tem o prefixo",
       "answers": [
         "CT7 ",
@@ -2044,7 +1953,6 @@
       "uniqueID": 146
     },
     {
-      "numb": 148,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 2 na Região Autómoma da Madeira (área geográfica MDR) tem o prefixo",
       "answers": [
         "CT9",
@@ -2058,7 +1966,6 @@
       "uniqueID": 147
     },
     {
-      "numb": 149,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 2 na Região Autónoma da Madeira (área geográfica MDR) tem o prefixo",
       "answers": [
         "CT9",
@@ -2072,7 +1979,6 @@
       "uniqueID": 148
     },
     {
-      "numb": 150,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 1 em Portugal Continental (área geográfica POR) tem o prefixo",
       "answers": [
         "CT7",
@@ -2086,7 +1992,6 @@
       "uniqueID": 149
     },
     {
-      "numb": 151,
       "question": "O indicativo de Chamada (IC) de uma estação fixa principal de um amador de categoria 3 na Região Autónoma dos Açores (região AZR) tem o prefixo",
       "answers": [
         "CT8",
@@ -2100,7 +2005,6 @@
       "uniqueID": 150
     },
     {
-      "numb": 152,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador de categoria 3 na Região Autónoma da Madeira (área geográfica MDR) tem o prefixo",
       "answers": [
         "CT9",
@@ -2110,11 +2014,11 @@
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p5",
       "img": null,
       "uniqueID": 151
     },
     {
-      "numb": 153,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador de categoria 1 na Região Autónoma dos Açores (área geográfica AZR) tem o prefixo",
       "answers": [
         "CT8",
@@ -2128,7 +2032,6 @@
       "uniqueID": 152
     },
     {
-      "numb": 154,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador de categoria 1 no Continente (região POR) tem o prefixo",
       "answers": [
         "CT7",
@@ -2142,7 +2045,6 @@
       "uniqueID": 153
     },
     {
-      "numb": 155,
       "question": "O Indicativo de Chamada (IC) de uma estação fixa principal de um amador da categoria 2 na Região Autónoma do Açores (região AZR) tem o prefixo",
       "answers": [
         "CT8",
@@ -2156,7 +2058,6 @@
       "uniqueID": 154
     },
     {
-      "numb": 156,
       "question": "Caso se tenha aproveitamento no exame para a categoria 3 a que documentos se tem direito?",
       "answers": [
         "Ao CAN, à licença CEPT e ao HAREC",
@@ -2170,7 +2071,6 @@
       "uniqueID": 155
     },
     {
-      "numb": 157,
       "question": "Sendo amador da categoria 3 e tendo o CAN ativo que taxa anual tenho que pagar?",
       "answers": [
         "Taxa anual relativa à licença CEPT",
@@ -2184,7 +2084,6 @@
       "uniqueID": 156
     },
     {
-      "numb": 158,
       "question": "Se um amador da categoria 3 fizer exame para a categoria 2",
       "answers": [
         "manterá o indicativo de chamada da sua estação",
@@ -2198,21 +2097,20 @@
       "uniqueID": 157
     },
     {
-      "numb": 159,
       "question": "Como é feito o acesso à categoria 3?",
       "answers": [
         "Mediante documento habilitante emitido por outro país",
         "Mediante certificado do 6.º ano emitido por um estabelecimento de ensino reconhecido",
-        "Mediante exame realizado pela ANNACOM",
+        "Mediante exame realizado pela ANACOM",
         "Mediante exame realizado pela IARU"
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p9",
       "img": null,
       "uniqueID": 158
     },
     {
-      "numb": 160,
       "question": "Quantas categorias de amadores existem?",
       "answers": [
         "Existem três categorias de amador: 1, 2 e 3",
@@ -2222,11 +2120,11 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p11",
       "img": null,
       "uniqueID": 159
     },
     {
-      "numb": 161,
       "question": "Podem requerer à ANACOM a realização de exame para a categoria 3, os indivíduos",
       "answers": [
         "maiores de 12 anos",
@@ -2236,11 +2134,11 @@
       ],
       "correctIndex": 1,
       "notes": "Notas",
+      "fonte": "2023_08_18p7",
       "img": null,
       "uniqueID": 160
     },
     {
-      "numb": 162,
       "question": "Para além do reconhecimento de títulos habilitantes válidos emitidos por outras Administrações, como é feito o acesso à categoria 2?",
       "answers": [
         "Mediante exame ao qual podem candidatar-se amadores maiores de 18 anos, que tenham o tempo mínimo de permanência na categoria 3",
@@ -2254,7 +2152,6 @@
       "uniqueID": 161
     },
     {
-      "numb": 163,
       "question": "Para além do reconhecimento de títulos habilitantes válidos emitidos por outras Administrações, como é feito o acesso à categoria 1?",
       "answers": [
         "Mediante exame ao qual podem candidatar-se amadores maiores de 18 anos, com pelo menos 5 anos de permanência na categoria 2",
@@ -2264,11 +2161,11 @@
       ],
       "correctIndex": 2,
       "notes": "Notas",
+      "fonte": "2023_08_18p8",
       "img": null,
       "uniqueID": 162
     },
     {
-      "numb": 164,
       "question": "Qual a expressão usada em fonia para sinal de perigo?",
       "answers": [
         "HELP",
@@ -2282,7 +2179,6 @@
       "uniqueID": 163
     },
     {
-      "numb": 165,
       "question": "Porque não se deverão operar os equipamentos da estação com as mãos molhadas?",
       "answers": [
         "Porque aumenta o risco de electrocussão",
@@ -2292,11 +2188,11 @@
       ],
       "correctIndex": 1,
       "notes": "Notas",
+      "fonte": "2028_08_18p21",
       "img": null,
       "uniqueID": 164
     },
     {
-      "numb": 166,
       "question": "Porque deverão estar as superficies do local onde se encontram os equipamentos e os próprios equipamentos livres de água ou humidade excessiva?",
       "answers": [
         "Porque a humidade associada ao calor pode degradar a qualidade das comunicações",
@@ -2310,7 +2206,6 @@
       "uniqueID": 165
     },
     {
-      "numb": 167,
       "question": "Qual a alteração sofrida pela atenuação do cabo coaxial à medida que aumenta a frequência do sinal transmitido?",
       "answers": [
         "A atenuação é independente da frequência",
@@ -2324,7 +2219,6 @@
       "uniqueID": 166
     },
     {
-      "numb": 168,
       "question": "Qual das seguintes opções constitui um método para adaptar impedâncias entre dois circuitos de corrente alternada?",
       "answers": [
         "Inserir um circuito LC entre dois circuitos",
@@ -2338,7 +2232,6 @@
       "uniqueID": 167
     },
     {
-      "numb": 169,
       "question": "Que tipo de interferência eléctrica pode ser causada pelo funcionamento de um computador nas proximidades?",
       "answers": [
         "Um forte zumbido AC na saída áudio do receptor da estação",
@@ -2352,7 +2245,6 @@
       "uniqueID": 168
     },
     {
-      "numb": 170,
       "question": "Qual a causa mais provável para se ouvirem combinações de sinais de radiodifusão AM local numa ou em mais de uma faixa MF ou HF de radioamador?",
       "answers": [
         "A estação de radiodifusão está a transmitir num sinal sobremodulado",
@@ -2366,7 +2258,6 @@
       "uniqueID": 169
     },
     {
-      "numb": 171,
       "question": "Que tipo de sinal é captado por fios eléctricos nas proximidades de um transmissor de rádio?",
       "answers": [
         "Um sinal em modo comum à mesma frequência do transmissor de rádio",
@@ -2380,7 +2271,6 @@
       "uniqueID": 170
     },
     {
-      "numb": 172,
       "question": "O que recomendaria relativamente às precauções a serem tomadas quando se prevê a ocorrência de uma trovoada?",
       "answers": [
         "Desligue os cabos das antenas da estação e mantenha-os afastados dos equipamentos",
@@ -2390,11 +2280,11 @@
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p24",
       "img": null,
       "uniqueID": 171
     },
     {
-      "numb": 173,
       "question": "Qual é a maior causa para a estática da atmosfera?",
       "answers": [
         "Emissões solares de RF",
@@ -2408,7 +2298,6 @@
       "uniqueID": 172
     },
     {
-      "numb": 174,
       "question": "Qual dos seguintes tipos de emissão é\n permitido ao utilizar um equipamento móvel em HF?",
       "answers": [
         "Onda contínua",
@@ -2422,7 +2311,6 @@
       "uniqueID": 173
     },
     {
-      "numb": 175,
       "question": "Que parte da faixa de 20 metros costuma ser usada no funcionamento do modo PSK31?",
       "answers": [
         "Na base do segmento de TV “slow-scan” (varrimento lento), próximo dos 14,230 MHz",
@@ -2436,7 +2324,6 @@
       "uniqueID": 174
     },
     {
-      "numb": 176,
       "question": "Por que motivo recorre a maioria das estações amadoras à banda lateral inferior nas faixas dos 160, 75 e 40 metros?",
       "answers": [
         "A banda lateral inferior é mais eficiente nestas faixas de frequências",
@@ -2450,7 +2337,6 @@
       "uniqueID": 175
     },
     {
-      "numb": 177,
       "question": "Qual o tipo de modulação mais utilizado\n para comunicações de voz nas faixas HF de radioamador?",
       "answers": [
         "Modulação em frequência",
@@ -2464,7 +2350,6 @@
       "uniqueID": 176
     },
     {
-      "numb": 178,
       "question": "Qual é a banda lateral mais utilizada para\n comunicações de voz nas faixas dos 17 e 12 metros?",
       "answers": [
         "Banda lateral superior",
@@ -2478,7 +2363,6 @@
       "uniqueID": 177
     },
     {
-      "numb": 179,
       "question": "O valor da tensão aos terminais duma resistência",
       "answers": [
         "aumenta quando a corrente diminui",
@@ -2492,8 +2376,7 @@
       "uniqueID": 178
     },
     {
-      "numb": 180,
-      "question": "O valor da potencia dissipada numa dada resistencia",
+      "question": "O valor da potência dissipada numa dada resistência",
       "answers": [
         "aumenta quando a corrente diminui",
         "aumenta quando a corrente aumenta",
@@ -2506,7 +2389,6 @@
       "uniqueID": 179
     },
     {
-      "numb": 181,
       "question": "Qual das seguintes expressões não representa a Lei de Ohm (em que V é a tensão, I é a corrente e R é a resistência)?",
       "answers": [
         "V=RxI",
@@ -2516,11 +2398,11 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p31",
       "img": null,
       "uniqueID": 180
     },
     {
-      "numb": 182,
       "question": "O valor da frequência de uma onda de rádio, no Sistema Internacional de Unidades, exprime-se em",
       "answers": [
         "Ampère",
@@ -2534,7 +2416,6 @@
       "uniqueID": 181
     },
     {
-      "numb": 183,
       "question": "No Sistema Internacional de Unidades (SI) o valor da potência dissipada numa resistência expressa-se em",
       "answers": [
         "Ampère",
@@ -2548,7 +2429,6 @@
       "uniqueID": 182
     },
     {
-      "numb": 184,
       "question": "No Sistema Internacional de Unidades (SI) o valor da corrente elétrica expressa-se em",
       "answers": [
         "Ampère",
@@ -2562,8 +2442,7 @@
       "uniqueID": 183
     },
     {
-      "numb": 185,
-      "question": "No Sistema Internancional de Unidades (SI) o valor de uma dada resistencia expressa-se em:",
+      "question": "No Sistema Internancional de Unidades (SI) o valor de uma dada resistência expressa-se em:",
       "answers": [
         "Ampère",
         "Volte",
@@ -2576,7 +2455,6 @@
       "uniqueID": 184
     },
     {
-      "numb": 186,
       "question": "No Sistema Internacional de Unidades (SI) o valor da tensão expressa-se em:",
       "answers": [
         "Ampére",
@@ -2590,7 +2468,6 @@
       "uniqueID": 185
     },
     {
-      "numb": 187,
       "question": "Qual a unidade de medida da\n impedância?",
       "answers": [
         "Volt",
@@ -2604,7 +2481,6 @@
       "uniqueID": 186
     },
     {
-      "numb": 188,
       "question": "O valor do comprimento de onda, no sistema Internacional de Unidades (SI), exprimenta-se em:",
       "answers": [
         "Volt",
@@ -2614,11 +2490,11 @@
       ],
       "correctIndex": 4,
       "notes": "Notas",
+      "fonte": "2023_08_18p39",
       "img": null,
       "uniqueID": 187
     },
     {
-      "numb": 189,
       "question": "Qual das seguintes substâncias é um semicondutor",
       "answers": [
         "Cobre",
@@ -2632,7 +2508,6 @@
       "uniqueID": 188
     },
     {
-      "numb": 190,
       "question": "Qual das seguintes substâncias é isolante?",
       "answers": [
         "Cobre",
@@ -2646,7 +2521,6 @@
       "uniqueID": 189
     },
     {
-      "numb": 191,
       "question": "Qual das seguintes substancias é um condutor?",
       "answers": [
         "Cobre",
@@ -2660,7 +2534,6 @@
       "uniqueID": 190
     },
     {
-      "numb": 192,
       "question": "Para que se usa um fusível num circuito elétrico?",
       "answers": [
         "Para nos assegurarmos que a energia chega ao circuito",
@@ -2674,7 +2547,6 @@
       "uniqueID": 191
     },
     {
-      "numb": 193,
       "question": "Num cabo de alimentação de rede de três condutores o fio azul é",
       "answers": [
         "o neutro",
@@ -2684,11 +2556,11 @@
       ],
       "correctIndex": 1,
       "notes": "Notas",
+      "fonte": "2023_08_18p23",
       "img": null,
       "uniqueID": 192
     },
     {
-      "numb": 194,
       "question": "O que está ligado ao fio azul numa instalação eléctrica habitacional?",
       "answers": [
         "O Neutro",
@@ -2702,7 +2574,6 @@
       "uniqueID": 193
     },
     {
-      "numb": 195,
       "question": "O que está ligado ao fio verde e amarelo numa tomada tripla?",
       "answers": [
         "O neutro",
@@ -2716,8 +2587,7 @@
       "uniqueID": 194
     },
     {
-      "numb": 196,
-      "question": "Qual o valor da resistencia apresentada na figura?",
+      "question": "Qual o valor da resistência apresentada na figura?",
       "answers": [
         "1 Ohm",
         "1 000 Ohm",
@@ -2730,7 +2600,6 @@
       "uniqueID": 195
     },
     {
-      "numb": 197,
       "question": "Qual o valor da resistência apresentada na figura?",
       "answers": [
         "210 Ohm",
@@ -2744,7 +2613,6 @@
       "uniqueID": 196
     },
     {
-      "numb": 198,
       "question": "Qual o valor da resistência apresentada na figura?",
       "answers": [
         "210 Ohm",
@@ -2758,7 +2626,6 @@
       "uniqueID": 197
     },
     {
-      "numb": 199,
       "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 4?",
       "answers": [
         "Período do sinal",
@@ -2772,7 +2639,6 @@
       "uniqueID": 198
     },
     {
-      "numb": 200,
       "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 2?",
       "answers": [
         "Período do sinal",
@@ -2786,7 +2652,6 @@
       "uniqueID": 199
     },
     {
-      "numb": 201,
       "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 1?",
       "answers": [
         "Período do sinal",
@@ -2796,11 +2661,11 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p40",
       "img": "images/cat3/sinusoidal.png",
       "uniqueID": 200
     },
     {
-      "numb": 202,
       "question": "A figura representa um sinal sinusoidal de amplitude em função do tempo. O que representa 3?",
       "answers": [
         "Periodo do sinal",
@@ -2814,7 +2679,6 @@
       "uniqueID": 201
     },
     {
-      "numb": 203,
       "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor pico a pico do sinal?",
       "answers": [
         "0,707 Volt",
@@ -2828,7 +2692,6 @@
       "uniqueID": 202
     },
     {
-      "numb": 204,
       "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor de pico do sinal?",
       "answers": [
         "0,707 Volt",
@@ -2842,7 +2705,6 @@
       "uniqueID": 203
     },
     {
-      "numb": 205,
       "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 Volt. Qual o valor eficaz do sinal?",
       "answers": [
         "0.707 Volt",
@@ -2856,7 +2718,6 @@
       "uniqueID": 204
     },
     {
-      "numb": 206,
       "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 4?",
       "answers": [
         "Período do sinal",
@@ -2870,7 +2731,6 @@
       "uniqueID": 205
     },
     {
-      "numb": 207,
       "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor médio do sinal da figura?",
       "answers": [
         "0.707 Volt",
@@ -2884,7 +2744,6 @@
       "uniqueID": 206
     },
     {
-      "numb": 208,
       "question": "Qual das seguintes ondas tem a frequência mais elevada?",
       "answers": [
         "1",
@@ -2898,7 +2757,6 @@
       "uniqueID": 207
     },
     {
-      "numb": 209,
       "question": "Qual das figuras representa um sinal sinusoidal?",
       "answers": [
         "1",
@@ -2912,7 +2770,6 @@
       "uniqueID": 208
     },
     {
-      "numb": 210,
       "question": "Na figura, qual o símbolo de uma resistência?",
       "answers": [
         "1",
@@ -2922,6 +2779,7 @@
       ],
       "correctIndex": 3,
       "notes": "Notas",
+      "fonte": "2023_08_18p32",
       "img": "images/cat3/simbolos.png",
       "uniqueID": 209
     }
