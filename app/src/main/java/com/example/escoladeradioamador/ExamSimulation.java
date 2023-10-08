@@ -1,5 +1,6 @@
 package com.example.escoladeradioamador;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -10,7 +11,7 @@ import java.util.List;
 
 public class ExamSimulation extends BaseActivity {
 
-
+    private boolean isExamFinalized = false;
     private static final long TIME_LIMIT_MS = 60 * 60 * 1000; // 1 hour in milliseconds
     private static final double WRITE = 1.0;
     private static final double WRONG = -0.25;
@@ -22,10 +23,10 @@ public class ExamSimulation extends BaseActivity {
         super.onCreate(savedInstanceState);
         timerTextView.setVisibility(View.VISIBLE);
         startTimer();
+        isExamFinalized = false;
 
     }
 
-    // ... other code ...
 
     private void startTimer() {
         countDownTimer = new CountDownTimer(TIME_LIMIT_MS, 1000) {
@@ -41,6 +42,7 @@ public class ExamSimulation extends BaseActivity {
             public void onFinish() {
                 // Time's up, finish the test
                 displayResults();
+                countDownTimer.cancel();
             }
             // ... other code ...
         }.start();
@@ -72,6 +74,7 @@ public class ExamSimulation extends BaseActivity {
         } else {
             // All questions have been answered, display results
             displayResults();
+            countDownTimer.cancel();
         }
     }
 
@@ -83,6 +86,7 @@ public class ExamSimulation extends BaseActivity {
         } else {
             previousButton.setVisibility(View.GONE);
         }
+
 
 
         if (currentQuestionIndex < selectedQuestions.size()) {
@@ -102,6 +106,24 @@ public class ExamSimulation extends BaseActivity {
             }
 
             nextButton.setVisibility(View.VISIBLE);
+            if (isExamFinalized) {
+                int selectedAnswer = selectedAnswers.get(currentQuestionIndex);
+                int correctAnswer = selectedQuestions.get(currentQuestionIndex).correctIndex - 1; // Convert to 0-based index
+
+                // Correct answer - Highlight question in green
+                highlightQuestionView(selectedAnswer == correctAnswer);
+
+            }
+        }
+    }
+
+    private void highlightQuestionView(boolean isCorrect) {
+        if (isCorrect) {
+            // Highlight question view in green for correct answers
+            answerRadioGroup.setBackgroundColor(Color.GREEN);
+        } else {
+            // Highlight question view in red for wrong answers
+            answerRadioGroup.setBackgroundColor(Color.RED);
         }
     }
 
@@ -119,23 +141,21 @@ public class ExamSimulation extends BaseActivity {
         int correctCount = 0;
         int wrongCount = 0;
         int noResponseCount = 0;
-
+        isExamFinalized = true;
         for (int i = 0; i < selectedQuestions.size(); i++) {
-            String question = selectedQuestions.get(i).question;
+
             int selectedAnswer = selectedAnswers.get(i);
             int correctAnswer = selectedQuestions.get(i).correctIndex - 1; // Convert to 0-based index
 
-            results.append("Pergunta").append(question).append("\n");
+
             if (selectedAnswer == correctAnswer) {
-                results.append("resposta: ").append(selectedQuestions.get(i).answers.get(selectedAnswer)).append(" (Correct)\n\n");
                 totalScore += WRITE;
                 correctCount++;
             } else if (selectedAnswer == -1) {
-                results.append("Sem resposta\n");
+
                 noResponseCount++;
             } else {
-                results.append("resposta Dada: ").append(selectedQuestions.get(i).answers.get(selectedAnswer)).append(" (Incorrect)\n");
-                results.append("resposta errada: ").append(selectedQuestions.get(i).answers.get(correctAnswer)).append("\n\n");
+
                 totalScore += WRONG;
                 wrongCount++;
             }

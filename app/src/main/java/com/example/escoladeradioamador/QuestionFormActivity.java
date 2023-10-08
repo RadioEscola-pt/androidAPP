@@ -31,7 +31,7 @@ public class QuestionFormActivity extends BaseActivity {
         if (correctIndex == selectedAnswerIndex + 1) {
 
             Toast.makeText(getApplicationContext(), "CORRECTO", Toast.LENGTH_SHORT).show();
-            answerRadioGroup.setBackgroundColor(Color.GREEN);
+            answerRadioGroup.setBackgroundColor(Color.BLUE);
         } else {
 
             Toast.makeText(getApplicationContext(), "ERRADO", Toast.LENGTH_SHORT).show();

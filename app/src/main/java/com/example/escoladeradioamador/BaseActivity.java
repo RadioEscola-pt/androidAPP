@@ -11,7 +11,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -35,16 +37,19 @@ public abstract class BaseActivity extends Activity {
     private ImageView questionImageView;
     private ImageView noteImageView;
     private AdView adView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MobileAds.initialize(this, new OnInitializationCompleteListener());
 
         setContentView(R.layout.activity_question_form);
 
-        //adView = findViewById(R.id.questadView);
-        //AdRequest adRequest = new AdRequest.Builder().build();
-        //adView.loadAd(adRequest);
+        adView = findViewById(R.id.questadView);
 
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+        adView.setAdListener(new AdListener());
 
         timerTextView = findViewById(R.id.timerTextView);
         questionTextView = findViewById(R.id.questionTextView);
@@ -108,24 +113,22 @@ public abstract class BaseActivity extends Activity {
     }
 
 
-    private void extractImageUrl(String questionText) {
-        int startIndex = questionText.indexOf("<img src='");
-        if (startIndex != -1) {
-            int endIndex = questionText.indexOf("'", startIndex + 10);
-            if (endIndex != -1) {
-                String imageUrl = questionText.substring(startIndex + 10, endIndex);
-                String questionTextWithoutImage = questionText.replace("<img src='" + imageUrl + "'>", "");
-                questionTextView.setText(questionTextWithoutImage);
-                // Load the image from the assets folder
-                try {
-                    InputStream inputStream = getAssets().open(imageUrl);
-                    Drawable drawable = Drawable.createFromStream(inputStream, null);
-                    questionImageView.setImageDrawable(drawable);
-                    questionImageView.setVisibility(View.VISIBLE); // Make the image view visible
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+    private void quetionImg(String questionText, String image) {
+
+        if (image != null) {
+
+
+            questionTextView.setText(questionText);
+            // Load the image from the assets folder
+            try {
+                InputStream inputStream = getAssets().open(image);
+                Drawable drawable = Drawable.createFromStream(inputStream, null);
+                questionImageView.setImageDrawable(drawable);
+                questionImageView.setVisibility(View.VISIBLE); // Make the image view visible
+            } catch (IOException e) {
+                e.printStackTrace();
             }
+
         } else {
             this.questionTextView.setText(questionText);
             questionImageView.setVisibility(View.GONE); // Hide the image view
@@ -161,7 +164,8 @@ public abstract class BaseActivity extends Activity {
 
     void displayQuestuion(Question currentQuestion) {
 
-        extractImageUrl(currentQuestion.question);
+        quetionImg(currentQuestion.question, currentQuestion.img);
+
 
         selectedAnswerIndex = -1;
         extractImageUrlNotes(currentQuestion.notes);
@@ -197,4 +201,6 @@ public abstract class BaseActivity extends Activity {
     protected abstract void selectQuestionView(View view);
 
     protected abstract void init();
+
+
 }

@@ -10,7 +10,9 @@
         "da NATO"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 1
     },
     {
       "numb": 2,
@@ -22,7 +24,9 @@
         "20 anos"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 2
     },
     {
       "numb": 3,
@@ -34,7 +38,9 @@
         "UR"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 3
     },
     {
       "numb": 4,
@@ -46,7 +52,9 @@
         "Níveis de ondas acústicas extremamente forter no local onde os euipamentos estão instalados"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 4
     },
     {
       "numb": 5,
@@ -58,7 +66,9 @@
         "Abster-se de retransmitir emissões de estações de quaisquer outros serviços de radiocomunicações"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 5
     },
     {
       "numb": 6,
@@ -70,7 +80,9 @@
         "Nada terei que fazer até que me provem que realmente existem interferências"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 6
     },
     {
       "numb": 7,
@@ -82,7 +94,9 @@
         "Podem ser criadas no cabo tensões muito elevadas quando a estação de amador emite"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 7
     },
     {
       "numb": 8,
@@ -94,7 +108,9 @@
         "Uma tensão DC"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 8
     },
     {
       "numb": 9,
@@ -106,7 +122,9 @@
         "28,0 - 29,7 MHz; 50,0 - 50,5 MHZ; 70,1570 - 70,2875 MHz; 144 - 146 MHz"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 9
     },
     {
       "numb": 10,
@@ -118,7 +136,9 @@
         "Destinam-se a harmonizar numa dada região as utilizações por parte dos Serviço de Amador e de Amador por Satélite"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 10
     },
     {
       "numb": 11,
@@ -130,7 +150,9 @@
         "Um amador deverá sempre, por solidariedade com outros, causar perturbações no espectro quando acha que os interesses do radioamadorismo estão e causa"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 11
     },
     {
       "numb": 12,
@@ -142,7 +164,9 @@
         "Recorrer a instâncias internacionais, no sentido destas entrarem em contacto com a ANACOM"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 12
     },
     {
       "numb": 13,
@@ -154,7 +178,9 @@
         "só se atenuam se se propagarem através do ar"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 13
     },
     {
       "numb": 14,
@@ -166,7 +192,9 @@
         "Os titulares de CAN, exceto da categoria 3, podem partilhar a utilização das suas estações individuais com outros amadores, de acordo com a sua categoria"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 14
     },
     {
       "numb": 15,
@@ -178,7 +206,9 @@
         "Colaborar com a ANACOM na resolução de interferências"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 15
     },
     {
       "numb": 16,
@@ -190,7 +220,9 @@
         "Não necessita"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 16
     },
     {
       "numb": 17,
@@ -202,7 +234,9 @@
         "por dez anos é renovável por iguais periodos"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 17
     },
     {
       "numb": 18,
@@ -214,7 +248,9 @@
         "o indicativo de chamada consignado a todas as estações móveis da União Europeia"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 18
     },
     {
       "numb": 19,
@@ -226,7 +262,9 @@
         "Os titulares de CAN, excepto da categoria 3, podem partilhar a utilização das suas estações individuais com outros amadores, de acordo com a sua categoria"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 19
     },
     {
       "numb": 20,
@@ -238,7 +276,9 @@
         "As que pretendem, dado não haver limite para número de estações fixas"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 20
     },
     {
       "numb": 21,
@@ -250,7 +290,9 @@
         "Por um periodo superior a 24 meses e inferior ou igual a 10 anos"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 21
     },
     {
       "numb": 22,
@@ -262,7 +304,9 @@
         "As que pretenderem, dado não haver limite para o número de estações móveis ou portáteis"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 22
     },
     {
       "numb": 23,
@@ -274,7 +318,9 @@
         "20 anos"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 23
     },
     {
       "numb": 24,
@@ -286,7 +332,9 @@
         "Além de qualquer amador das categorias 1 ou A, os presidentes das Associações de amador"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 24
     },
     {
       "numb": 25,
@@ -298,7 +346,9 @@
         "Todos os amadores"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 25
     },
     {
       "numb": 26,
@@ -310,7 +360,9 @@
         "Nas faixas em que os Serviço de Amador ou de Amador por Satélite têm estatuto secundário, as estações de amador poderão apenas reclamar protecção de interferências causadas por estações de serviços com estatuto secundário, se as consignações feitas a estes serviços forem posteriores àquelas."
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 26
     },
     {
       "numb": 27,
@@ -322,7 +374,9 @@
         "Estatutos primário ou secundário"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 27
     },
     {
       "numb": 28,
@@ -334,7 +388,9 @@
         "A CEPT ou a União Europeia"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 28
     },
     {
       "numb": 29,
@@ -346,7 +402,9 @@
         "A Administração do país em causa"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 29
     },
     {
       "numb": 30,
@@ -358,7 +416,9 @@
         "É uma estação de radiocomunicações do Serviço de Amador ou do Serviço de Amador por Satélite, que apenas pode ter carácter fixo"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 30
     },
     {
       "numb": 31,
@@ -370,7 +430,9 @@
         "Que a emissão é proveniente de uma estação fixa adicional"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 31
     },
     {
       "numb": 32,
@@ -382,7 +444,9 @@
         "Que a emissão é proveniente de uma estação fixa adicional"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 32
     },
     {
       "numb": 34,
@@ -394,7 +458,9 @@
         "Um trabalho realizado em 1995 por amadores num grupo de trabalho de gestão de frequências"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 33
     },
     {
       "numb": 35,
@@ -406,7 +472,9 @@
         "Um trabalho realizado em 1995 por amadores num grupo de trabalho de gestão de frequências"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 34
     },
     {
       "numb": 36,
@@ -418,7 +486,9 @@
         "Não, existe apenas um plano elaborado segundo os interesses da Região 2 defInida no Regulamento das Radiocomunicações"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 35
     },
     {
       "numb": 37,
@@ -430,7 +500,9 @@
         "Estão a cair em desuso tendo em conta a evolução das radiocomunicações"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 36
     },
     {
       "numb": 38,
@@ -442,7 +514,9 @@
         "Só podem as estações de uso comum"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 37
     },
     {
       "numb": 39,
@@ -454,7 +528,9 @@
         "Mensagem"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 38
     },
     {
       "numb": 40,
@@ -466,7 +542,9 @@
         "Mensagem"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 39
     },
     {
       "numb": 41,
@@ -478,7 +556,9 @@
         "Quando tornará a chamar-me?"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 40
     },
     {
       "numb": 42,
@@ -490,7 +570,9 @@
         "Quando tornará a chamar-me?"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 41
     },
     {
       "numb": 43,
@@ -502,7 +584,9 @@
         "Mensagem"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 42
     },
     {
       "numb": 44,
@@ -514,7 +598,9 @@
         "Quando tornará a chamar-me?"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 43
     },
     {
       "numb": 45,
@@ -526,7 +612,9 @@
         "Mensagem"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 44
     },
     {
       "numb": 46,
@@ -538,7 +626,9 @@
         "Mensagem"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 45
     },
     {
       "numb": 47,
@@ -550,7 +640,9 @@
         "Quando tornará a chamar-me?"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 46
     },
     {
       "numb": 48,
@@ -562,7 +654,9 @@
         "Quando tornará a chamar-me?"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 47
     },
     {
       "numb": 49,
@@ -574,7 +668,9 @@
         "Alpha, November, Quebec"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 48
     },
     {
       "numb": 50,
@@ -586,7 +682,9 @@
         "Alpha, Mouse, Time"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 49
     },
     {
       "numb": 51,
@@ -598,7 +696,9 @@
         "Alpha, Esquilo, Unit"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 50
     },
     {
       "numb": 52,
@@ -610,7 +710,9 @@
         "Alpha, Papa, Yack"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 51
     },
     {
       "numb": 53,
@@ -622,7 +724,9 @@
         "Alpha, Bravo, Fox"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 52
     },
     {
       "numb": 54,
@@ -634,7 +738,9 @@
         "Não está correto. Os equipamentos em operação devem ser mantidos em armários fechados para os proteger do pó"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 53
     },
     {
       "numb": 55,
@@ -646,7 +752,9 @@
         "Raios Alfa"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 54
     },
     {
       "numb": 56,
@@ -658,7 +766,9 @@
         "Queixar-me à Junta de Freguesia"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 55
     },
     {
       "numb": 57,
@@ -670,7 +780,9 @@
         "Ligando os cabos de alimentação do rádio directamente à bateria e instalando condensadores coaxiais em linha com os cabos do\n alternador"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 56
     },
     {
       "numb": 58,
@@ -682,7 +794,9 @@
         "Sinais que têm uma distribuição de frequências com picos\n acentuados"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 57
     },
     {
       "numb": 59,
@@ -694,7 +808,9 @@
         "Todas as opções são\n válidas"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 58
     },
     {
       "numb": 60,
@@ -706,7 +822,9 @@
         "Utilizando um interruptor de corrente com falha na ligação à terra no circuito utilizado para alimentar o\n motor"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 59
     },
     {
       "numb": 61,
@@ -718,7 +836,9 @@
         "Todas as opções são\n válidas"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 60
     },
     {
       "numb": 62,
@@ -730,7 +850,9 @@
         "O som de timbre no filtro DSP vai suprimir por completo os espaços entre os caracteres\n CW"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 61
     },
     {
       "numb": 63,
@@ -742,7 +864,9 @@
         "Deve-se ter especial cuidado na alimentação dos equipamentos de emissão e de recepção para garantir o seu bom funcionamento introduzindo-se estabilizadores ou filtros"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 62
     },
     {
       "numb": 64,
@@ -754,7 +878,9 @@
         "A filtragem não é utilizada na redução de radiações harmónicas, pelo que as três hipóteses anteriores são incorrectas"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 63
     },
     {
       "numb": 65,
@@ -766,7 +892,9 @@
         "Filtro passa banda"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 64
     },
     {
       "numb": 66,
@@ -778,7 +906,9 @@
         "Um filtro passa- alto no telefone afectado"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 65
     },
     {
       "numb": 67,
@@ -790,7 +920,9 @@
         "28,0 - 29,7 MHz; 50,0 - 52,0 MHZ; segmentos do intervalo 70,1570 - 70,2875 MHz; 144 - 146 MHz"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 66
     },
     {
       "numb": 68,
@@ -802,7 +934,9 @@
         "o cálculo da abertura e da diretividade, respetivamente"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 67
     },
     {
       "numb": 69,
@@ -814,7 +948,9 @@
         "o cálculo da abertura e da diretividade, respetivamente"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 68
     },
     {
       "numb": 70,
@@ -826,7 +962,9 @@
         "apenas da potência de saída do emissor e dos sistemas de filtragem que lhe podem estar associados"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 69
     },
     {
       "numb": 71,
@@ -838,7 +976,9 @@
         "amplificador de áudio"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 70
     },
     {
       "numb": 72,
@@ -850,7 +990,9 @@
         "emissor, antena, \"baixada\" da antena e amplificador"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 71
     },
     {
       "numb": 73,
@@ -862,7 +1004,9 @@
         "Nenhuma das respostas anteriores está correcta"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 72
     },
     {
       "numb": 74,
@@ -874,7 +1018,9 @@
         "Qualquer das sequências anteriores estão correctas, pois é indiferente a forma como se liga"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 73
     },
     {
       "numb": 75,
@@ -886,7 +1032,9 @@
         "Filtro de saída"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 74
     },
     {
       "numb": 76,
@@ -898,7 +1046,9 @@
         "Microfone"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 75
     },
     {
       "numb": 77,
@@ -910,7 +1060,9 @@
         "Sintonizador de frequência"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 76
     },
     {
       "numb": 78,
@@ -922,7 +1074,9 @@
         "Sintonizador de frequência"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 77
     },
     {
       "numb": 79,
@@ -934,7 +1088,9 @@
         "As ondas de rádio duma forma geral propagam-se sem necesidade de guia artifical e por esse facto foram fundamentais no desenvolvimento de comunicações móveis"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 78
     },
     {
       "numb": 80,
@@ -946,7 +1102,9 @@
         "Filtragem de saída dos equipamentos emissores"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 79
     },
     {
       "numb": 81,
@@ -958,7 +1116,9 @@
         "não tomar providências mesmo que seja interferido, evitando assim problemas"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 80
     },
     {
       "numb": 82,
@@ -970,7 +1130,9 @@
         "Todas as respostas anteriores estão correctas"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 81
     },
     {
       "numb": 83,
@@ -982,7 +1144,9 @@
         "Raios Alfa"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 82
     },
     {
       "numb": 84,
@@ -994,7 +1158,9 @@
         "Nenhumas aplicações têm faixas exclusivas"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 83
     },
     {
       "numb": 85,
@@ -1006,7 +1172,9 @@
         "4 letras"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 84
     },
     {
       "numb": 86,
@@ -1018,7 +1186,9 @@
         "4 caracteres, o último dos quais deverá ser uma letra"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 85
     },
     {
       "numb": 87,
@@ -1030,7 +1200,9 @@
         "20 anos"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 86
     },
     {
       "numb": 88,
@@ -1042,7 +1214,9 @@
         "Abandonar a actividade pois acho que nunca vou resolver este problema"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 87
     },
     {
       "numb": 89,
@@ -1054,7 +1228,9 @@
         "Esperar que a situação de interferência passe"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 88
     },
     {
       "numb": 90,
@@ -1066,7 +1242,9 @@
         "Um ano"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 89
     },
     {
       "numb": 91,
@@ -1078,7 +1256,9 @@
         "Um ano"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 90
     },
     {
       "numb": 92,
@@ -1090,7 +1270,9 @@
         "Indicativo de chamada de estação fixa adicional"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 91
     },
     {
       "numb": 93,
@@ -1102,7 +1284,9 @@
         "Nenhuma delas"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 92
     },
     {
       "numb": 94,
@@ -1114,7 +1298,9 @@
         "Para evitar que eventuais emissões espúrias do emissor em teste sejam radiadas e possam provocar interferências"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 93
     },
     {
       "numb": 95,
@@ -1126,7 +1312,9 @@
         "4"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 94
     },
     {
       "numb": 96,
@@ -1138,7 +1326,9 @@
         "Região P"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 95
     },
     {
       "numb": 97,
@@ -1150,7 +1340,9 @@
         "As ondas de rádio são ondas que resultam da força gravitacional"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 96
     },
     {
       "numb": 98,
@@ -1162,7 +1354,9 @@
         "Podem ser criadas na linha de transmissão tensões muito elevadas quando a estação de amador emite, pondo em risco a segurança das pessoas"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 97
     },
     {
       "numb": 99,
@@ -1174,7 +1368,9 @@
         "Informar os vizinhos do amador que o melhor é reclamarem para a ANACOM"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 98
     },
     {
       "numb": 100,
@@ -1186,7 +1382,9 @@
         "Introdução de filtragem adequada na estação de amador"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 99
     },
     {
       "numb": 101,
@@ -1198,7 +1396,9 @@
         "menor é a intensidade de campo num dado ponto do espaço, a uma dada distância nessa frequência, apenas se esse estiver no vazio"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 100
     },
     {
       "numb": 102,
@@ -1210,7 +1410,9 @@
         "Não ligar"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 101
     },
     {
       "numb": 103,
@@ -1222,7 +1424,9 @@
         "Usar sempre máscara no nariz e na boca quando se estão a operar os equipamentos da estação para proteger as vias respiratórias"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 102
     },
     {
       "numb": 104,
@@ -1234,7 +1438,9 @@
         "Sim, se tiver autorização da entidade competente"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 103
     },
     {
       "numb": 105,
@@ -1246,7 +1452,9 @@
         "nunca deverá ser feita"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 104
     },
     {
       "numb": 106,
@@ -1258,7 +1466,9 @@
         "são parte dos sufixos de indicadores de chamada que podem ser consignados às estações de amador"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 105
     },
     {
       "numb": 107,
@@ -1269,7 +1479,9 @@
         "Antena de meio comprimento de onda"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 106
     },
     {
       "numb": 108,
@@ -1281,7 +1493,9 @@
         "Destina-se exclusivamente a amadores que desenvolvem as suas comunicações pelo menos 800 m acima do nível médio das águas do mar"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 107
     },
     {
       "numb": 109,
@@ -1293,7 +1507,9 @@
         "AJUDA"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 108
     },
     {
       "numb": 110,
@@ -1305,7 +1521,9 @@
         ". - . - . –"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 109
     },
     {
       "numb": 111,
@@ -1317,7 +1535,9 @@
         "Nada de relevante"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 110
     },
     {
       "numb": 112,
@@ -1329,7 +1549,9 @@
         "Banda lateral\n dupla"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 111
     },
     {
       "numb": 113,
@@ -1341,7 +1563,9 @@
         "HF"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 112
     },
     {
       "numb": 114,
@@ -1353,7 +1577,9 @@
         "SHF"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 113
     },
     {
       "numb": 115,
@@ -1365,7 +1591,9 @@
         "SHF"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 114
     },
     {
       "numb": 116,
@@ -1377,7 +1605,9 @@
         "SHF"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 115
     },
     {
       "numb": 117,
@@ -1389,7 +1619,9 @@
         "SHF"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 116
     },
     {
       "numb": 118,
@@ -1401,7 +1633,9 @@
         "250 000 km/s"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 117
     },
     {
       "numb": 119,
@@ -1413,7 +1647,9 @@
         "Para as comunicações a mais curta distância utilizam-se as faixas de VHF e de UHF (e em particular esta última)"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 118
     },
     {
       "numb": 120,
@@ -1425,7 +1661,9 @@
         "Seguir os procedimentos publicados pelo ICP-ANACOM"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 119
     },
     {
       "numb": 121,
@@ -1437,7 +1675,9 @@
         "Seguir os procedimentos publicados pelo ICP-ANACOM"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 120
     },
     {
       "numb": 122,
@@ -1449,7 +1689,9 @@
         "Se o problema for na minha estação, investigar e resolver a situação ou ajudar a resolver a situação se o problema for da instalação de recepção."
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 121
     },
     {
       "numb": 123,
@@ -1461,7 +1703,9 @@
         "Usar uma frequência que não seja usada por repetidores"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 122
     },
     {
       "numb": 124,
@@ -1473,7 +1717,9 @@
         "Em nenhum dos sítios referidos nas três hipóteses anteriores"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 123
     },
     {
       "numb": 125,
@@ -1485,7 +1731,9 @@
         "transmitir lenta e pacientemente quando solicitado"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 124
     },
     {
       "numb": 126,
@@ -1497,7 +1745,9 @@
         "aumentar os seus conhecimentos não os partilhando com os outros amadores"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 125
     },
     {
       "numb": 127,
@@ -1509,7 +1759,9 @@
         "Um amador nunca deve deixar de identificar a estação através do seu indicativo de chamada"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 126
     },
     {
       "numb": 128,
@@ -1521,7 +1773,9 @@
         "amistoso"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 127
     },
     {
       "numb": 129,
@@ -1533,7 +1787,9 @@
         "Um amador deverá sempre, por solidariedade com outros, causar perturbações no espectro quando acha que os interesses do radioamadorismo estão e causa"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 128
     },
     {
       "numb": 130,
@@ -1545,7 +1801,9 @@
         "Emitir nas frequências de amador, excepto se a sua estação puder emitir nas frequências de outros serviços"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 129
     },
     {
       "numb": 131,
@@ -1557,7 +1815,9 @@
         "F3E"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 130
     },
     {
       "numb": 132,
@@ -1569,7 +1829,9 @@
         "nenhuma das respostas anteriores está correcta"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 131
     },
     {
       "numb": 133,
@@ -1581,7 +1843,9 @@
         "Não existem"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 132
     },
     {
       "numb": 134,
@@ -1593,7 +1857,9 @@
         "No sítio da internet da IARU"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 133
     },
     {
       "numb": 135,
@@ -1605,7 +1871,9 @@
         "da NATO"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 134
     },
     {
       "numb": 136,
@@ -1617,7 +1885,9 @@
         "ANACOM"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 135
     },
     {
       "numb": 137,
@@ -1629,7 +1899,9 @@
         "A adaptação de impedâncias não é importante numa estação de recepção"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 136
     },
     {
       "numb": 138,
@@ -1641,7 +1913,9 @@
         "só se atenuam se se propagarem através do ar"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 137
     },
     {
       "numb": 139,
@@ -1653,7 +1927,9 @@
         "por dez anos e é renovável por iguais períodos"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 138
     },
     {
       "numb": 140,
@@ -1665,7 +1941,9 @@
         "CQ5"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 139
     },
     {
       "numb": 141,
@@ -1677,7 +1955,9 @@
         "CQ5"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 140
     },
     {
       "numb": 142,
@@ -1689,7 +1969,9 @@
         "CQ5"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 141
     },
     {
       "numb": 143,
@@ -1701,7 +1983,9 @@
         "CR0"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 142
     },
     {
       "numb": 144,
@@ -1713,7 +1997,9 @@
         "CR9"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 143
     },
     {
       "numb": 145,
@@ -1725,7 +2011,9 @@
         "CR9"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 144
     },
     {
       "numb": 146,
@@ -1737,7 +2025,9 @@
         "CR9"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 145
     },
     {
       "numb": 147,
@@ -1749,7 +2039,9 @@
         "CR9"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 146
     },
     {
       "numb": 148,
@@ -1761,7 +2053,9 @@
         "CR9"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 147
     },
     {
       "numb": 149,
@@ -1773,7 +2067,9 @@
         "CR9"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 148
     },
     {
       "numb": 150,
@@ -1785,7 +2081,9 @@
         "CR9"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 149
     },
     {
       "numb": 151,
@@ -1797,7 +2095,9 @@
         "CR9"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 150
     },
     {
       "numb": 152,
@@ -1809,7 +2109,9 @@
         "CR9"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 151
     },
     {
       "numb": 153,
@@ -1821,7 +2123,9 @@
         "CR9"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 152
     },
     {
       "numb": 154,
@@ -1833,7 +2137,9 @@
         "CR9"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 153
     },
     {
       "numb": 155,
@@ -1845,7 +2151,9 @@
         "CR9"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 154
     },
     {
       "numb": 156,
@@ -1857,7 +2165,9 @@
         "Apenas ao HAREC"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 155
     },
     {
       "numb": 157,
@@ -1869,7 +2179,9 @@
         "Taxa anual de utilização do espectro"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 156
     },
     {
       "numb": 158,
@@ -1881,7 +2193,9 @@
         "terá um novo indicativo de chamada para a sua estação com prefixo e sufixo distintos do anterior"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 157
     },
     {
       "numb": 159,
@@ -1893,7 +2207,9 @@
         "Mediante exame realizado pela IARU"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 158
     },
     {
       "numb": 160,
@@ -1905,7 +2221,9 @@
         "Existem sete categorias de amador: A, B, C, D, 1, 2 e 3"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 159
     },
     {
       "numb": 161,
@@ -1917,7 +2235,9 @@
         "maiores de 21 anos"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 160
     },
     {
       "numb": 162,
@@ -1929,7 +2249,9 @@
         "Mediante exame ao qual podem candidatar-se amadores maiores de 16 anos, que tenham o tempo mínimo de permanência na categoria 3 ou os amadores da categoria C"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 161
     },
     {
       "numb": 163,
@@ -1941,7 +2263,9 @@
         "Mediante exame ao qual podem candidatar-se amadores das categorias 2, 3, B ou C"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 162
     },
     {
       "numb": 164,
@@ -1953,7 +2277,9 @@
         "AJUDA"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 163
     },
     {
       "numb": 165,
@@ -1965,7 +2291,9 @@
         "Não está correcto. Os equipamentos devem ser manuseados com as mãos molhadas para evitar que a gordura dos dedos danifique os equipamentos."
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 164
     },
     {
       "numb": 166,
@@ -1977,7 +2305,9 @@
         "Não está correcto. Os locais e os equipamentos deverão estar húmidos para evitar que o pó se agarre"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 165
     },
     {
       "numb": 167,
@@ -1989,7 +2319,9 @@
         "Atinge um máximo próximo dos 18\n MHz"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 166
     },
     {
       "numb": 168,
@@ -2001,7 +2333,9 @@
         "Inserir um circulador entre dois circuitos"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 167
     },
     {
       "numb": 169,
@@ -2013,7 +2347,9 @@
         "Um ruído semelhante a um gemido que se ouve e pára continuamente"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 168
     },
     {
       "numb": 170,
@@ -2025,7 +2361,9 @@
         "Defeito do estágio do amplificador IF do receptor da estação"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 169
     },
     {
       "numb": 171,
@@ -2037,7 +2375,9 @@
         "Harmónicos da frequência do cabo de alimentação AC"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 170
     },
     {
       "numb": 172,
@@ -2049,7 +2389,9 @@
         "Todas as respostas anteriores estão corretas"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 171
     },
     {
       "numb": 173,
@@ -2061,7 +2403,9 @@
         "Chuva de meteoros"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 172
     },
     {
       "numb": 174,
@@ -2073,7 +2417,9 @@
         "Todas as\n opções são válidas"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 173
     },
     {
       "numb": 175,
@@ -2085,7 +2431,9 @@
         "Próximo do segmento RTTY, próximo dos 14,070 MHz"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 174
     },
     {
       "numb": 176,
@@ -2097,7 +2445,9 @@
         "Nestas faixas de frequências, os radioamadores estão sujeitos à utilização da banda lateral inferior"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 175
     },
     {
       "numb": 177,
@@ -2109,7 +2459,9 @@
         "Modulação em fase"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 176
     },
     {
       "numb": 178,
@@ -2121,7 +2473,9 @@
         "Banda lateral dupla"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 177
     },
     {
       "numb": 179,
@@ -2133,7 +2487,9 @@
         "não aumenta nem diminui qualquer que seja o valor da corrente aplicada"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 178
     },
     {
       "numb": 180,
@@ -2145,7 +2501,9 @@
         "não aumenta nem diminui qualquer que seja o valor da tensão aplicada"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 179
     },
     {
       "numb": 181,
@@ -2157,7 +2515,9 @@
         "I=V/R"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 180
     },
     {
       "numb": 182,
@@ -2169,7 +2529,9 @@
         "Watt"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 181
     },
     {
       "numb": 183,
@@ -2181,7 +2543,9 @@
         "Watt"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 182
     },
     {
       "numb": 184,
@@ -2193,7 +2557,9 @@
         "Joule"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 183
     },
     {
       "numb": 185,
@@ -2205,7 +2571,9 @@
         "Joule"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 184
     },
     {
       "numb": 186,
@@ -2217,7 +2585,9 @@
         "Joule"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 185
     },
     {
       "numb": 187,
@@ -2229,7 +2599,9 @@
         "Watt"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 186
     },
     {
       "numb": 188,
@@ -2241,7 +2613,9 @@
         "Metro"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 187
     },
     {
       "numb": 189,
@@ -2253,7 +2627,9 @@
         "Plástico"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 188
     },
     {
       "numb": 190,
@@ -2265,7 +2641,9 @@
         "Ferro"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 189
     },
     {
       "numb": 191,
@@ -2277,7 +2655,9 @@
         "Plastico"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 190
     },
     {
       "numb": 192,
@@ -2289,7 +2669,9 @@
         "Para evitar choques elétricos"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 191
     },
     {
       "numb": 193,
@@ -2301,7 +2683,9 @@
         "uma tensão DC"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 192
     },
     {
       "numb": 194,
@@ -2313,7 +2697,9 @@
         "Uma tensão DC"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 193
     },
     {
       "numb": 195,
@@ -2325,11 +2711,13 @@
         "Uma tensão DC"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": null,
+      "uniqueID": 194
     },
     {
       "numb": 196,
-      "question": "Qual o valor da resistencia apresentada na figura?<img src='images/cat3/100k.png'>",
+      "question": "Qual o valor da resistencia apresentada na figura?",
       "answers": [
         "1 Ohm",
         "1 000 Ohm",
@@ -2337,11 +2725,13 @@
         "100 000 Ohm"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/100k.png",
+      "uniqueID": 195
     },
     {
       "numb": 197,
-      "question": "Qual o valor da resistência apresentada na figura?<img src='images/cat3/220ohm.png'>",
+      "question": "Qual o valor da resistência apresentada na figura?",
       "answers": [
         "210 Ohm",
         "220 Ohm",
@@ -2349,11 +2739,13 @@
         "2200 Ohm"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/220ohm.png",
+      "uniqueID": 196
     },
     {
       "numb": 198,
-      "question": "Qual o valor da resistência apresentada na figura?<img src='images/cat3/2k.png'>",
+      "question": "Qual o valor da resistência apresentada na figura?",
       "answers": [
         "210 Ohm",
         "2000 Ohm",
@@ -2361,11 +2753,13 @@
         "20000 Ohm"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/2k.png",
+      "uniqueID": 197
     },
     {
       "numb": 199,
-      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 4?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 4?",
       "answers": [
         "Período do sinal",
         "Valor eficaz do sinal",
@@ -2373,11 +2767,13 @@
         "Valor pico a pico do sinal"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 198
     },
     {
       "numb": 200,
-      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 2?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 2?",
       "answers": [
         "Período do sinal",
         "Valor eficaz do sinal",
@@ -2385,11 +2781,13 @@
         "Valor pico a pico do sinal"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 199
     },
     {
       "numb": 201,
-      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 1?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 1?",
       "answers": [
         "Período do sinal",
         "Valor eficaz do sinal",
@@ -2397,11 +2795,13 @@
         "Valor pico a pico do sinal"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 200
     },
     {
       "numb": 202,
-      "question": "A figura representa um sinal sinusoidal de amplitude em função do tempo. O que representa 3?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa um sinal sinusoidal de amplitude em função do tempo. O que representa 3?",
       "answers": [
         "Periodo do sinal",
         "Valor eficaz do sinal",
@@ -2409,11 +2809,13 @@
         "Valor pico a pico do sinal"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 201
     },
     {
       "numb": 203,
-      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor pico a pico do sinal?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor pico a pico do sinal?",
       "answers": [
         "0,707 Volt",
         "0 Volt",
@@ -2421,11 +2823,13 @@
         "2 Volt"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 202
     },
     {
       "numb": 204,
-      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor de pico do sinal?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor de pico do sinal?",
       "answers": [
         "0,707 Volt",
         "0 Volt",
@@ -2433,11 +2837,13 @@
         "2 Volt"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 203
     },
     {
       "numb": 205,
-      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 Volt. Qual o valor eficaz do sinal?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 Volt. Qual o valor eficaz do sinal?",
       "answers": [
         "0.707 Volt",
         "0 Volt",
@@ -2445,11 +2851,13 @@
         "2 Volt"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 204
     },
     {
       "numb": 206,
-      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 4?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa a amplitude de um sinal sinusoidal em função do tempo. O que representa 4?",
       "answers": [
         "Período do sinal",
         "Valor eficaz do sinal",
@@ -2457,11 +2865,13 @@
         "Valor pico a pico do sinal"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 205
     },
     {
       "numb": 207,
-      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor médio do sinal da figura?<img src='images/cat3/sinusoidal.png'>",
+      "question": "A figura representa um sinal sinusoidal em que +Um é igual a 1 volt. Qual o valor médio do sinal da figura?",
       "answers": [
         "0.707 Volt",
         "0 Volt",
@@ -2469,11 +2879,13 @@
         "2 Volt"
       ],
       "correctIndex": 2,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinusoidal.png",
+      "uniqueID": 206
     },
     {
       "numb": 208,
-      "question": "Qual das seguintes ondas tem a frequência mais elevada?<img src='images/cat3/frequencia.png'>",
+      "question": "Qual das seguintes ondas tem a frequência mais elevada?",
       "answers": [
         "1",
         "2",
@@ -2481,11 +2893,13 @@
         "4"
       ],
       "correctIndex": 4,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/frequencia.png",
+      "uniqueID": 207
     },
     {
       "numb": 209,
-      "question": "Qual das figuras representa um sinal sinusoidal?<img src='images/cat3/sinal.png'>",
+      "question": "Qual das figuras representa um sinal sinusoidal?",
       "answers": [
         "1",
         "2",
@@ -2493,11 +2907,13 @@
         "4"
       ],
       "correctIndex": 1,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/sinal.png",
+      "uniqueID": 208
     },
     {
       "numb": 210,
-      "question": "Na figura, qual o símbolo de uma resistência?<img src='images/cat3/simbolos.png'>",
+      "question": "Na figura, qual o símbolo de uma resistência?",
       "answers": [
         "1",
         "2",
@@ -2505,7 +2921,9 @@
         "4"
       ],
       "correctIndex": 3,
-      "notes": "Notas"
+      "notes": "Notas",
+      "img": "images/cat3/simbolos.png",
+      "uniqueID": 209
     }
   ]
 }
