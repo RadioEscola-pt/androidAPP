@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
@@ -83,13 +82,5 @@
         android:textColor="@color/linkColor"
         android:textSize="16sp" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/mainAdView"
-        android:layout_width="377dp"
-        android:layout_height="170dp"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center_horizontal"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-6641020792572290/5410473960" />
 
 </LinearLayout>

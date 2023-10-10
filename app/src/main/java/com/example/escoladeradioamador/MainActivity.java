@@ -8,14 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
 
 public class MainActivity extends Activity {
 
-    private AdView adView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,11 +21,7 @@ public class MainActivity extends Activity {
         MobileAds.initialize(this, new OnInitializationCompleteListener());
 
 
-        adView = findViewById(R.id.mainAdView);
-        AdRequest adRequest = new AdRequest.Builder().build();
 
-        adView.loadAd(adRequest);
-        adView.setAdListener(new AdListener());
 
         Button buttonCat1 = findViewById(R.id.buttonCat1);
         Button buttonCat2 = findViewById(R.id.buttonCat2);

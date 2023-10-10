@@ -11,8 +11,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 
@@ -36,7 +34,7 @@ public abstract class BaseActivity extends Activity {
     protected int selectedAnswerIndex = -1; // Added this line
     private ImageView questionImageView;
     private ImageView noteImageView;
-    private AdView adView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,11 +43,7 @@ public abstract class BaseActivity extends Activity {
 
         setContentView(R.layout.activity_question_form);
 
-        adView = findViewById(R.id.questadView);
 
-        AdRequest adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
-        adView.setAdListener(new AdListener());
 
         timerTextView = findViewById(R.id.timerTextView);
         questionTextView = findViewById(R.id.questionTextView);
