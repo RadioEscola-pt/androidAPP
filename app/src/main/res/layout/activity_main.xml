@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonCat1"
+        style="@style/MetallicBlueButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Peguntas de Cat 1" />
+
+    <Button
+        android:id="@+id/exameCat1"
+        style="@style/MetallicBlueButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="exame de Cat 1" />
+
+    <Button
+        android:id="@+id/buttonCat2"
+        style="@style/MetallicBlueButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Peguntas de Cat 2" />
+
+    <Button
+        android:id="@+id/exameCat2"
+        style="@style/MetallicBlueButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="exame de Cat 2" />
+
+    <Button
+        android:id="@+id/buttonCat3"
+        style="@style/MetallicBlueButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Peguntas de Cat 3" />
+
+    <Button
+        android:id="@+id/exameCat3"
+        style="@style/MetallicBlueButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="exame de Cat 3" />
+
+
+    <TextView
+        android:id="@+id/websiteLinkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="openWebsiteLink"
+        android:text="Visite o noso website"
+        android:textColor="@color/linkColor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/telegramLinkTextView"
+
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/websiteLinkTextView"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:onClick="openTelegramLink"
+        android:text="junte se ao Telegram"
+        android:textColor="@color/linkColor"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
