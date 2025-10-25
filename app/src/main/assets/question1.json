@@ -1731,7 +1731,7 @@
         "O ciclo de trabalho do elemento de controlo é controlado de forma a produzir uma tensão média constante à saída",
         "Produz tensão de saida em rampa"
       ],
-      "correctIndex": 4,
+      "correctIndex": 3,
       "notes": "Os reguladores eletrônicos lineares de tensão mantêm uma tensão de saída constante ajustando a condução do elemento de controle, de modo a compensar variações nas condições da linha ou carga.",
       "img": null,
       "uniqueID": 375,
@@ -2224,12 +2224,12 @@
         "Um circulador e um filtro que funcione num loop por realimentação (feed-back)",
         "Um amplificador e um circuito de realimentação"
       ],
-      "correctIndex": 3,
+      "correctIndex": 4,
       "notes": "A100  Exames:(<a target='_blank' href='exams/cat1/2014_12_19.pdf'>2014_12_19p34</a>)",
       "img": null,
       "uniqueID": 126,
       "fonte": [
-        "cat1/2014_12_19p34"
+        "cat1/2019_07_08p32"
       ],
       "tutorial": null,
       "materia": null
@@ -2891,7 +2891,7 @@
     {
       "question": "Que tipo de circuito se agrega a um transmissor de FM para restabelecer as frequências de áudio mais baixas atenuadas ou as frequências de áudio mais altas amplificadas?",
       "answers": [
-        "Ua rede de de-ênfase",
+        "Uma rede de de-ênfase",
         "Um supressor heterodino",
         "Um prescaler de áudio",
         "Uma rede de pré-ênfase"
@@ -5115,7 +5115,7 @@
       "materia": null
     },
     {
-      "question": "POrque é que um sinal SSB não deve ser modulado a mais de 100%?",
+      "question": "Porque é que um sinal SSB não deve ser modulado a mais de 100%?",
       "answers": [
         "Porque deixa de ser um sinal modulado em AM passado a ser modulado em FM",
         "Porque a propagação do sinal fica dificultada",
@@ -5140,8 +5140,8 @@
         "Devido ao efeito pelicular",
         "Porque os condutores são dispositivos não lineares"
       ],
-      "correctIndex": 2,
-      "notes": " Exames:(<a target='_blank' href='exams/cat1/2011_12_13.pdf'>2011_12_13p14</a>)",
+      "correctIndex": 3,
+      "notes": "A resistência de um condutor é diferente para correntes de radiofrequência (RF) e para correntes contínuas devido ao efeito pelicular (também conhecido como efeito skin ou skin effect). Esse efeito ocorre em altas frequências, onde a corrente tende a se concentrar na superfície do condutor, aumentando efetivamente a resistência elétrica. Em correntes contínuas (DC), a corrente se distribui uniformemente por toda a seção transversal do condutor, resultando em menor resistência.",
       "img": null,
       "uniqueID": 279,
       "fonte": [
@@ -5250,8 +5250,8 @@
         "Os analisadores de antena apresentam normalmente variações no tempo da modulação envolvente ",
         "Todas as opções são válidas"
       ],
-      "correctIndex": 3,
-      "notes": " Exames:(<a target='_blank' href='exams/cat1/2014_12_19.pdf'>2014_12_19p13</a>)",
+      "correctIndex": 2,
+      "notes": "",
       "img": null,
       "uniqueID": 285,
       "fonte": [
@@ -6574,7 +6574,7 @@
       "materia": null
     },
     {
-      "question": "Qual o ganho de tensão absoluto aproximado do circuito da figura, se R1=1800 ohms e RF=68000 ohms?",
+      "question": "Qual o ganho de tensão absoluto aproximado do circuito da figura, se R1=1800 ohms e R2=68000 ohms?",
       "answers": [
         "1.",
         "0,03.",

@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.MobileAds;
 
 
 public class MainActivity extends Activity {
@@ -18,7 +17,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MobileAds.initialize(this, new OnInitializationCompleteListener());
 
 
 
@@ -33,6 +31,8 @@ public class MainActivity extends Activity {
         TextView telegramLinkTextView = findViewById(R.id.telegramLinkTextView);
         TextView websiteLinkTextView = findViewById(R.id.websiteLinkTextView);
 
+
+
         telegramLinkTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
         websiteLinkTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWebLink("https://dirtybug.github.io/radioAmadorCat2exame/index.html#");
+                openWebLink("https://www.radioescola.pt");
             }
         });
         buttonExame1.setOnClickListener(new View.OnClickListener() {

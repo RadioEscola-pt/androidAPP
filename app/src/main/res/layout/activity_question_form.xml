@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
 
             android:layout_height="300dp"
-            android:layout_below="@id/questionTextView"
+            android:layout_below="@id/notes"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
 
@@ -86,7 +86,7 @@
             android:id="@+id/buttonContainer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/notes"
+            android:layout_below="@id/noteImageView"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp">
 
@@ -94,7 +94,6 @@
                 android:id="@+id/previousButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/MetallicBlueButtonStyle"
                 android:text="voltar"
 
 
@@ -104,9 +103,8 @@
                 android:id="@+id/nextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/MetallicBlueButtonStyle"
 
-                android:text="Proximo"
+                android:text="@string/proximo"
                 android:visibility="gone" />
 
         </LinearLayout>

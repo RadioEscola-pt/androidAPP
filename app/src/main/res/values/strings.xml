@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">escola de radio amador</string>
+    <string name="app_name">radioEscola</string>
+    <string name="peguntas_de_cat_1">Peguntas de Cat 1</string>
+    <string name="peguntas_de_cat_2">Peguntas de Cat 2</string>
+    <string name="exame_de_cat_2">exame de Cat 2</string>
+    <string name="exame_de_cat_3">exame de Cat 3</string>
+    <string name="peguntas_de_cat_3">Peguntas de Cat 3</string>
+    <string name="junte_se_ao_telegram">junte se ao Telegram</string>
+    <string name="visite_o_noso_website">Visite o noso website</string>
+    <string name="proximo">Proximo</string>
 </resources>

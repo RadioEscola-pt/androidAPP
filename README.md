@@ -1,2 +1,0 @@
-# androidAPP
-app para androi

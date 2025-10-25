@@ -42,6 +42,8 @@ public class QuestionFormActivity extends BaseActivity {
         selectedAnswerIndex = -1;
 
         notesTextView.setVisibility(View.VISIBLE);
+        noteImageView.setVisibility(View.VISIBLE);
+
     }
 
     protected void updateQuestionView() {

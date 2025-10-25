@@ -1375,7 +1375,7 @@
             "calc": null
         },
         {
-            "question": "Em modulação de frequência nas faixas de UHF com espaçamento entre canais de 25 kHz, a largura defaixa necessária em geral para uma emissão radiofónica é de:",
+            "question": "Em modulação de frequência nas faixas de UHF com espaçamento entre canais de 25 kHz, a largura de faixa necessária em geral para uma emissão radiofónica é de:",
             "answers": [
                 "500 Hz",
                 "16 kHz",
@@ -1758,7 +1758,7 @@
                 "20 dB"
             ],
             "correctIndex": 4,
-            "notes": "A55 Temos um ganho de 10 x assim o valor são 10 dB,para calcular este valor deve se usar a seguinte formula Ganho = 20 * log(v2 / v1) (é 20 log(v2/v1) porque é tensão se fosse potência era 10log(v2/v1)  => Ganho = 20 * log(10 / 1) = 20 dB,opção 3.",
+            "notes": "A55 Temos um ganho de 10 x assim o valor são 10 dB,para calcular este valor deve se usar a seguinte formula Ganho = 20 * log(v2 / v1) (é 20 log(v2/v1) porque é tensão se fosse potência era 10log(v2/v1)  => Ganho = 20 * log(10 / 1) = 20 dB,opção 4.",
             "img": null,
             "uniqueID": 88,
             "fonte": null,
@@ -2271,7 +2271,7 @@
             "calc": null
         },
         {
-            "question": "Um tranformador, projectado para o efeito, com o primário ligado à rede eléctrica, apresenta nos terminais do secundário em vazio 5,2 V",
+            "question": "Um transformador, projectado para o efeito, com o primário ligado à rede eléctrica, apresenta nos terminais do secundário em vazio 5,2 V",
             "answers": [
                 "de tensão contínua",
                 "de tensão alternada",
@@ -2818,7 +2818,7 @@
                 "Todas as hipóteses estão corretas"
             ],
             "correctIndex": 3,
-            "notes": "A92 necessario validar na bateria de exames é considerada a resposta 2 https://web.fe.up.pt/~vgt/dados/E3/apontamentos/ampl_sinto.pdf",
+            "notes": "A92 necessário validar na bateria de exames é considerada a resposta 2 https://web.fe.up.pt/~vgt/dados/E3/apontamentos/ampl_sinto.pdf",
             "img": null,
             "uniqueID": 141,
             "fonte": null,
@@ -3098,7 +3098,7 @@
             "calc": null
         },
         {
-            "question": "A corrente que circula entre o colector e o emissor de um transistor é 8 mA, e a corrente que circula entre a base e o emissor do mesmo transistor é 400 uA. Qual é o ganho de corrente apresentado?",
+            "question": "A corrente que circula entre o colector e o emissor de um transistor é 8 mA, e a corrente que circula entre a base e o emissor do mesmo transistor é 400 µA. Qual é o ganho de corrente apresentado?",
             "answers": [
                 "0,2",
                 "20",
@@ -3693,7 +3693,7 @@
                 "No microfone"
             ],
             "correctIndex": 3,
-            "notes": "A123 Exames:(<a target='_blank' href='exams/cat2/2016_01_00.pdf'>2016_01_00p23</a>) (<a target='_blank' href='exams/cat2/2018_05_00.pdf'>2018_05_00p23</a>) (<a target='_blank' href='exams/cat2/2018_06_19.pdf'>2018_06_19p23</a>) (<a target='_blank' href='exams/cat2/2022_08_26.pdf'>2022_08_26p25</a>) (<a target='_blank' href='exams/cat2/2023_03_08.pdf'>2023_03_08p25</a>) Como as espurias são emitidas na saida de RF, o local logico é a seguir ao andar de saída do emissor, logo, resposta 2.",
+            "notes": "A123 Exames:(<a target='_blank' href='exams/cat2/2016_01_00.pdf'>2016_01_00p23</a>) (<a target='_blank' href='exams/cat2/2018_05_00.pdf'>2018_05_00p23</a>) (<a target='_blank' href='exams/cat2/2018_06_19.pdf'>2018_06_19p23</a>) (<a target='_blank' href='exams/cat2/2022_08_26.pdf'>2022_08_26p25</a>) (<a target='_blank' href='exams/cat2/2023_03_08.pdf'>2023_03_08p25</a>) Como as espurias são emitidas na saida de RF, o local logico é a seguir ao andar de saída do emissor, logo, resposta 3.",
             "img": null,
             "uniqueID": 184,
             "fonte": [
@@ -4158,7 +4158,7 @@
                 "Impedância substancialmente mais elevada",
                 "Impedância relativamente idêntica",
                 "Impedância substancialmente inferior",
-                "Dobro da impedância da linha de trasnmissão"
+                "Dobro da impedância da linha de transmissão"
             ],
             "correctIndex": 2,
             "notes": " Exames:(<a target='_blank' href='exams/cat2/2012_04_10.pdf'>2012_04_10p19</a>) (<a target='_blank' href='exams/cat2/2018_06_19.pdf'>2018_06_19p16</a>) (<a target='_blank' href='exams/cat2/2020_07_16.pdf'>2020_07_16p18</a>) (<a target='_blank' href='exams/cat2/2022_07_20.pdf'>2022_07_20p18</a>) (<a target='_blank' href='exams/cat2/2022_08_26.pdf'>2022_08_26p18</a>) (<a target='_blank' href='exams/cat2/2023_06_26.pdf'>2023_06_26p18</a>)",
@@ -4241,7 +4241,7 @@
                 "26 dB/m"
             ],
             "correctIndex": 1,
-            "notes": "A148 Basta dividir os 6dB por 200 metros que dá 0,13 dB por metro",
+            "notes": "A148 Basta dividir os 26dB por 200 metros que dá 0,13 dB por metro",
             "img": null,
             "uniqueID": 211,
             "fonte": null,
@@ -4596,12 +4596,12 @@
             "calc": null
         },
         {
-            "question": "Uma linha de trasnmissão que liga um emissor de RF à antena deve estar adaptada para",
+            "question": "Uma linha de transmissão que liga um emissor de RF à antena deve estar adaptada para",
             "answers": [
                 "prevenir perdas de frequência",
                 "evitar o fading no sinal emitido",
                 "garantir que o sinal emitido tem a polarização correta",
-                "transferir a máxima portência para a antena"
+                "transferir a máxima potência para a antena"
             ],
             "correctIndex": 4,
             "notes": "2023_08_29p24 2011_11_00p9 2017_09_27p22 2018_06_19p22 2023_01_27p24",
@@ -5297,7 +5297,7 @@
             "calc": null
         },
         {
-            "question": "Sempre que um amador estabeleça comunicações em Portugal ao abrigo de uma 'licença CEPT novice'emitida por uma outra Administração, deve emitir o IC da sua estação de amador antecedido do prefixo",
+            "question": "Sempre que um amador estabeleça comunicações em Portugal ao abrigo de uma 'licença CEPT novice' emitida por uma outra Administração, deve emitir o IC da sua estação de amador antecedido do prefixo",
             "answers": [
                 "CS7 se estiver a operar numa estação de amador, situada na área geográfica POR",
                 "CR8 se estiver a operar numa estação de amador, situada na área geográfica AZR",
@@ -5928,7 +5928,7 @@
             "question": "Num emissor qual a função dos multiplicadores de frequência",
             "answers": [
                 "Servem para obter frequências de áudio mais elevadas",
-                "Servem para obter frequências de áudio mais mais baixas",
+                "Servem para obter frequências de áudio mais baixas",
                 "Servem para obter frequências de portadoras mais baixas",
                 "Servem para obter frequências de portadoras mais elevadas"
             ],
@@ -6124,7 +6124,7 @@
                 "Sem qualquer restrição",
                 "Em nenhuma restrição dado não se tratar de uma faixa do serviço de amador",
                 "Só com uma autorização especial do ICP-ANACOM",
-                "Respeitando as condicionantes expressas na regulamentação aplicavél"
+                "Respeitando as condicionantes expressas na regulamentação aplicável"
             ],
             "notes": " Exames:(<a target='_blank' href='exams/cat2/2012_04_10.pdf'>2012_04_10p4</a>) (<a target='_blank' href='exams/cat2/2016_01_00.pdf'>2016_01_00p5</a>) (<a target='_blank' href='exams/cat2/2017_09_27.pdf'>2017_09_27p5</a>) (<a target='_blank' href='exams/cat2/2023_06_26.pdf'>2023_06_26p2</a>)",
             "correctIndex": 4,
@@ -6145,7 +6145,7 @@
             "answers": [
                 "Utilizar estações de amador em todos os países da CEPT",
                 "Utilizar estações de amador em todos os países membros da CEPT ou não, cuja administração tenha adoptado a Recomendação CEPT T/R 61-01",
-                "Utilizar estações de amador nos países cuja Adminstração tenha adoptado a Recomendação CEPT ECC/REC/(05)06",
+                "Utilizar estações de amador nos países cuja Administração tenha adoptado a Recomendação CEPT ECC/REC/(05)06",
                 "Utilizar estações de amador em todos os países da CEPT, nos Estados Unidos e na Austrália"
             ],
             "notes": "Consulte o documento:<a target='_blank' href='docs/Rec0506.pdf' class='underline'>ANNEX 1: GENERAL CONDITIONS FOR THE ISSUE OF THE CEPT NOVICE RADIO AMATEUR LICENCE > 1 GENERAL PROVISIONS RELATING TO (CEPT NOVICE RADIO AMATEUR LICENCE) > The CEPT Novice Licence can be included in the national novice licence or be a special document issued by the same authority, and will be drafted in the national language and in German, English and French; it will be valid for non-residents only, for the duration of their temporary stays in countries having adopted this Recommendation, and within the limit of validity of the national licence. Radio amateurs holding a temporary licence issued in a foreign country may not benefit from the provisions of this Recommendation.",
@@ -6374,7 +6374,7 @@
             "calc": null
         },
         {
-            "question": "Qual o parâmetro que melhor descreve a interacção do lado da carga de um cabo desaptado?",
+            "question": "Qual o parâmetro que melhor descreve a interacção do lado da carga de um cabo desadaptado?",
             "answers": [
                 "A impedância caracteristica",
                 "A relação de onda estacionária",

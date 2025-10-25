@@ -11,7 +11,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -33,13 +32,12 @@ public abstract class BaseActivity extends Activity {
     protected TextView timerTextView;
     protected int selectedAnswerIndex = -1; // Added this line
     private ImageView questionImageView;
-    private ImageView noteImageView;
+    protected ImageView noteImageView;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MobileAds.initialize(this, new OnInitializationCompleteListener());
 
         setContentView(R.layout.activity_question_form);
 
@@ -57,6 +55,7 @@ public abstract class BaseActivity extends Activity {
         timerTextView.setVisibility(View.GONE);
         nextButton.setVisibility(View.VISIBLE);
         String fileName = getIntent().getStringExtra("fileName");
+
         loadQuestionsFromFile(fileName);
 
         nextButton.setOnClickListener(new View.OnClickListener() {
@@ -118,7 +117,7 @@ public abstract class BaseActivity extends Activity {
                 InputStream inputStream = getAssets().open(image);
                 Drawable drawable = Drawable.createFromStream(inputStream, null);
                 questionImageView.setImageDrawable(drawable);
-                questionImageView.setVisibility(View.VISIBLE); // Make the image view visible
+                questionImageView.setVisibility(View.GONE); // Make the image view visible
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -145,7 +144,7 @@ public abstract class BaseActivity extends Activity {
                     InputStream inputStream = getAssets().open(imageUrl);
                     Drawable drawable = Drawable.createFromStream(inputStream, null);
                     noteImageView.setImageDrawable(drawable);
-                    noteImageView.setVisibility(View.VISIBLE);
+                    noteImageView.setVisibility(View.GONE);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -153,6 +152,10 @@ public abstract class BaseActivity extends Activity {
         } else {
             noteImageView.setVisibility(View.GONE);
             notesTextView.setText(questionText);
+            noteImageView.setImageDrawable(null);   // release reference
+
+
+
         }
     }
 
