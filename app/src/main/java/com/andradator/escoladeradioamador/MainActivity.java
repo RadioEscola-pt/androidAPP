@@ -1,4 +1,4 @@
-package com.example.escoladeradioamador;
+package com.andradator.escoladeradioamador;
 
 import android.app.Activity;
 import android.content.Intent;

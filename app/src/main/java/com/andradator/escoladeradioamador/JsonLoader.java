@@ -1,4 +1,4 @@
-package com.example.escoladeradioamador;
+package com.andradator.escoladeradioamador;
 
 import com.google.gson.Gson;
 
