@@ -3,17 +3,17 @@ plugins {
 }
 
 android {
-    namespace = "com.example.escoladeradioamador"
+    namespace = "com.andradator.escoladeradioamador"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.escoladeradioamador"
-        minSdk = 36
+        applicationId = "com.andradator.escoladeradioamador"
+        minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 1016
+        versionName = "1.0.16"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
