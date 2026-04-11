@@ -1,0 +1,32 @@
+name: flutter_app
+description: "Escola de Rádio Amador - App de estudo para exame de radioamador"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  url_launcher: ^6.3.1
+  flutter_html: ^3.0.0-beta.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/question1.json
+    - assets/question2.json
+    - assets/question3.json
+    - assets/images/cat1/
+    - assets/images/cat2/
+    - assets/images/cat3/
