@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../providers/progress_providers.dart';
 import '../../providers/question_providers.dart';
 import '../../theme.dart';
 import '../../widgets/bottom_nav_bar.dart';
@@ -39,10 +40,40 @@ class _ExamScreenState extends ConsumerState<ExamScreen> {
     setState(() => _questionsLoaded = true);
   }
 
-  void _startExam() => setState(() => _examStarted = true);
+  /// When the candidate began, used to record how long the exam took.
+  ///
+  /// Taken from the wall clock rather than the countdown widget, which owns its
+  /// remaining time privately and is keyed with a UniqueKey. This also gives
+  /// the right answer for both ways an exam ends: finished early, or timed out.
+  DateTime? _startedAt;
+
+  /// Guards against recording twice if the timer fires as the exam is handed in.
+  bool _recorded = false;
+
+  void _startExam() => setState(() {
+        _examStarted = true;
+        _startedAt = DateTime.now();
+      });
 
   void _finalizeExam() {
-    ref.read(examNotifierProvider(widget.category).notifier).finalize();
+    final notifier = ref.read(examNotifierProvider(widget.category).notifier);
+    notifier.finalize();
+
+    if (_recorded) return;
+    _recorded = true;
+
+    final examState = ref.read(examNotifierProvider(widget.category));
+    final duration = examState.config?.duration;
+    final elapsed = DateTime.now().difference(_startedAt ?? DateTime.now());
+    ref.read(progressProvider.notifier).recordExam(
+          category: widget.category,
+          examState: examState,
+          // Clamped: a device clock change or a backgrounded app should not
+          // report an exam that took longer than the exam was allowed to.
+          timeSpent: duration == null
+              ? elapsed.inSeconds
+              : elapsed.inSeconds.clamp(0, duration.inSeconds),
+        );
   }
 
   @override

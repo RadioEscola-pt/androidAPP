@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../models/question.dart';
+import '../../providers/progress_providers.dart';
 import '../../providers/question_providers.dart';
 import '../../theme.dart';
 import '../../widgets/bottom_nav_bar.dart';
@@ -31,6 +32,13 @@ class _StudyScreenState extends ConsumerState<StudyScreen> {
     if (_answered) return;
     setState(() => _selectedAnswer = index);
     final correct = index == question.correctIndex;
+    // Fire-and-forget: the snackbar below should not wait on a disk write, and
+    // a failed write must not swallow the answer the user just gave.
+    ref.read(progressProvider.notifier).recordAnswer(
+          category: widget.category,
+          questionId: question.id,
+          correct: correct,
+        );
     ScaffoldMessenger.of(context)
       ..removeCurrentSnackBar()
       ..showSnackBar(

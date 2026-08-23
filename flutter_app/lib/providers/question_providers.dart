@@ -7,12 +7,17 @@ import '../models/question.dart';
 import '../services/question_service.dart';
 
 enum Category {
-  cat1('Categoria 1'),
-  cat2('Categoria 2'),
-  cat3('Categoria 3');
+  cat1('Categoria 1', '1'),
+  cat2('Categoria 2', '2'),
+  cat3('Categoria 3', '3');
 
-  const Category(this.label);
+  const Category(this.label, this.id);
+
   final String label;
+
+  /// The category id the content pipeline and the website use ("1", "2", "3").
+  /// Progress keys are built from this, so both surfaces index the same map.
+  final String id;
 }
 
 const categoryFiles = {
