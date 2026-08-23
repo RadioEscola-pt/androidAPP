@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../models/progress.dart';
 import '../../models/question.dart';
 import '../../providers/progress_providers.dart';
 import '../../providers/question_providers.dart';
+import '../../services/spaced_repetition.dart';
 import '../../theme.dart';
 import '../../widgets/bottom_nav_bar.dart';
 import '../../widgets/notes_container.dart';
+import '../../widgets/review_rating_bar.dart';
 
 class StudyScreen extends ConsumerStatefulWidget {
   final Category category;
@@ -20,12 +23,48 @@ class StudyScreen extends ConsumerStatefulWidget {
 class _StudyScreenState extends ConsumerState<StudyScreen> {
   int? _selectedAnswer;
 
+  /// Set once the question has been self-rated, so the bar does not invite a
+  /// second rating that would schedule the same question twice.
+  bool _rated = false;
+
   bool get _answered => _selectedAnswer != null;
 
   Color get _accentColor => categoryAccentColor(widget.category.index);
 
   void _resetAnswer() {
-    setState(() => _selectedAnswer = null);
+    setState(() {
+      _selectedAnswer = null;
+      _rated = false;
+    });
+  }
+
+  void _onRated(ReviewQuality quality, int interval, Question question) {
+    if (_rated) return;
+    setState(() => _rated = true);
+    ref.read(progressProvider.notifier).recordReview(
+          category: widget.category,
+          questionId: question.id,
+          quality: quality,
+        );
+    ScaffoldMessenger.of(context)
+      ..removeCurrentSnackBar()
+      ..showSnackBar(
+        SnackBar(
+          content: Text(
+            'Repetir em ${ReviewRatingBar.formatInterval(interval)}',
+          ),
+          behavior: SnackBarBehavior.floating,
+          duration: const Duration(seconds: 2),
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(radiusS)),
+          margin: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+        ),
+      );
+  }
+
+  SpacedRepetitionStats? _srStatsFor(Question question) {
+    final progress = ref.read(progressProvider).valueOrNull;
+    return questionStatsFor(progress, widget.category, question)?.spacedRep;
   }
 
   void _onAnswerSelected(int index, Question question) {
@@ -84,6 +123,18 @@ class _StudyScreenState extends ConsumerState<StudyScreen> {
         title: Text(widget.category.label),
         foregroundColor: Colors.white,
         backgroundColor: _accentColor,
+        actions: [
+          questionsAsync.maybeWhen(
+            data: (questions) => questions.isEmpty
+                ? const SizedBox.shrink()
+                : _BookmarkAction(
+                    category: widget.category,
+                    question:
+                        questions[questionIndex.clamp(0, questions.length - 1)],
+                  ),
+            orElse: () => const SizedBox.shrink(),
+          ),
+        ],
       ),
       body: questionsAsync.when(
         loading: () =>
@@ -182,6 +233,14 @@ class _StudyScreenState extends ConsumerState<StudyScreen> {
           const SizedBox(height: 20),
           NotesContainer(
               notes: question.explanationHtml, accentColor: _accentColor),
+          const SizedBox(height: 20),
+          if (!_rated)
+            ReviewRatingBar(
+              current: _srStatsFor(question),
+              onRated: (quality, interval) => _onRated(quality, interval, question),
+            )
+          else
+            _RatedNotice(accentColor: _accentColor),
         ],
       ],
     );
@@ -300,6 +359,57 @@ class _StudyScreenState extends ConsumerState<StudyScreen> {
             const Spacer(),
         ],
       ),
+    );
+  }
+}
+
+/// Bookmark toggle for the question currently on screen.
+class _BookmarkAction extends ConsumerWidget {
+  final Category category;
+  final Question question;
+
+  const _BookmarkAction({required this.category, required this.question});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final progress = ref.watch(progressProvider).valueOrNull;
+    final bookmarked =
+        questionStatsFor(progress, category, question)?.bookmarked ?? false;
+
+    return IconButton(
+      tooltip: bookmarked ? 'Remover dos guardados' : 'Guardar pergunta',
+      icon: Icon(
+        bookmarked ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
+      ),
+      onPressed: () => ref.read(progressProvider.notifier).toggleBookmark(
+            category: category,
+            questionId: question.id,
+          ),
+    );
+  }
+}
+
+/// Replaces the rating bar once the question has been scheduled.
+class _RatedNotice extends StatelessWidget {
+  final Color accentColor;
+
+  const _RatedNotice({required this.accentColor});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Icon(Icons.check_circle_outline, size: 16, color: accentColor),
+        const SizedBox(width: 6),
+        Text(
+          'Revisão agendada',
+          style: TextStyle(
+            fontSize: 13,
+            fontWeight: FontWeight.w600,
+            color: accentColor,
+          ),
+        ),
+      ],
     );
   }
 }

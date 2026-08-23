@@ -43,6 +43,37 @@ final examConfigProvider = FutureProvider<ExamConfig>((ref) async {
   return ref.watch(questionServiceProvider).loadExamConfig();
 });
 
+/// Every category's questions, for surfaces that span the whole bank.
+///
+/// Bookmarks and the dashboard hold `cat{n}_{id}` keys rather than questions,
+/// so they need to look the question up regardless of which category it is in.
+/// The three futures are awaited together rather than in sequence.
+final allQuestionsProvider =
+    FutureProvider<Map<Category, List<Question>>>((ref) async {
+  final lists = await Future.wait(
+    Category.values.map((c) => ref.watch(questionsProvider(c).future)),
+  );
+  return Map.fromIterables(Category.values, lists);
+});
+
+/// Looks up a question by the category id and question id held in a stat key.
+///
+/// Returns null when the bank no longer has it — a question retired from the
+/// ANACOM set can still be referenced by progress recorded before it went.
+({Category category, Question question, int index})? findQuestion(
+  Map<Category, List<Question>> bank,
+  String categoryId,
+  int questionId,
+) {
+  for (final entry in bank.entries) {
+    if (entry.key.id != categoryId) continue;
+    final index = entry.value.indexWhere((q) => q.id == questionId);
+    if (index == -1) return null;
+    return (category: entry.key, question: entry.value[index], index: index);
+  }
+  return null;
+}
+
 /// Tracks the current question index in study mode, per category.
 final studyIndexProvider =
     StateProvider.family<int, Category>((ref, category) => 0);

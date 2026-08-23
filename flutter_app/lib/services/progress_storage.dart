@@ -109,6 +109,56 @@ class ProgressStorage {
     return next;
   }
 
+  /// Records a spaced-repetition review: counts the attempt and stores the
+  /// schedule SM-2 produced for the question.
+  Future<UserProgress> recordReview({
+    required String category,
+    required int questionId,
+    required SpacedRepetitionStats spacedRep,
+    required bool wasCorrect,
+    int? timestamp,
+  }) async {
+    final at = timestamp ?? _now();
+    final progress = await readOrEmpty();
+    final key = questionStatsKey(category, questionId);
+    final existing = progress.questionStats[key] ?? const QuestionStats();
+
+    final next = progress.copyWith(
+      questionStats: {
+        ...progress.questionStats,
+        key: existing.copyWith(
+          attempts: existing.attempts + 1,
+          correct: existing.correct + (wasCorrect ? 1 : 0),
+          lastAttempt: at,
+          lastCorrect: wasCorrect,
+          spacedRep: spacedRep,
+        ),
+      },
+      stats: _withStreak(progress.stats, at),
+    );
+    await write(next);
+    return next;
+  }
+
+  Future<UserProgress> saveQuestionNotes({
+    required String category,
+    required int questionId,
+    required String notes,
+  }) async {
+    final progress = await readOrEmpty();
+    final key = questionStatsKey(category, questionId);
+    final existing = progress.questionStats[key] ?? const QuestionStats();
+
+    final next = progress.copyWith(
+      questionStats: {
+        ...progress.questionStats,
+        key: existing.copyWith(notes: notes),
+      },
+    );
+    await write(next);
+    return next;
+  }
+
   Future<UserProgress> toggleBookmark({
     required String category,
     required int questionId,

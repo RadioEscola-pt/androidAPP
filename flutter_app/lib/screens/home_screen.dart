@@ -8,8 +8,7 @@ import '../theme.dart';
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
-  static const _websiteUrl =
-      'https://dirtybug.github.io/radioAmadorCat2exame/index.html#';
+  static const _websiteUrl = 'https://radioescola.pt';
   static const _telegramUrl = 'https://t.me/+xQNzwNwb2JIxMWY8';
 
   @override
@@ -52,6 +51,31 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 12),
+
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: screenPaddingH),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: _ShortcutChip(
+                        icon: Icons.insights_outlined,
+                        label: 'Progresso',
+                        onTap: () => context.pushNamed('dashboard'),
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: _ShortcutChip(
+                        icon: Icons.bookmark_border_rounded,
+                        label: 'Guardados',
+                        onTap: () => context.pushNamed('bookmarks'),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 20),
 
               _CategoryTile(
                 category: Category.cat3,
@@ -373,6 +397,53 @@ class _CommunityChip extends StatelessWidget {
                   fontSize: 14,
                   fontWeight: FontWeight.w600,
                   color: colorScheme.onSurfaceVariant,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Entry point to a progress surface, styled to sit above the category list
+/// without competing with it — these are somewhere to check in, not the main
+/// thing to do on this screen.
+class _ShortcutChip extends StatelessWidget {
+  const _ShortcutChip({
+    required this.icon,
+    required this.label,
+    required this.onTap,
+  });
+
+  final IconData icon;
+  final String label;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return Material(
+      color: colorScheme.surfaceContainerHighest.withAlpha(100),
+      borderRadius: BorderRadius.circular(radiusS),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(radiusS),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 14),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(icon, size: 18, color: colorScheme.onSurfaceVariant),
+              const SizedBox(width: 8),
+              Text(
+                label,
+                style: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600,
+                  color: colorScheme.onSurface,
                 ),
               ),
             ],

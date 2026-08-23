@@ -4,6 +4,7 @@ import 'package:uuid/uuid.dart';
 import '../models/progress.dart';
 import '../models/question.dart';
 import '../services/progress_storage.dart';
+import '../services/spaced_repetition.dart';
 import 'question_providers.dart';
 
 final progressStorageProvider = Provider<ProgressStorage>((ref) {
@@ -35,6 +36,30 @@ class ProgressNotifier extends AsyncNotifier<UserProgress> {
     ));
   }
 
+  /// Records a self-rated review and schedules the question's next one.
+  ///
+  /// The SM-2 state is read from what is currently stored rather than from the
+  /// widget's copy, so a rating given on a stale screen still schedules from
+  /// the question's real history.
+  Future<void> recordReview({
+    required Category category,
+    required int questionId,
+    required ReviewQuality quality,
+  }) async {
+    final stored = await _storage.readOrEmpty();
+    final current =
+        stored.questionStats[questionStatsKey(category.id, questionId)]?.spacedRep;
+
+    final result = calculateSm2(quality: quality.rating, current: current);
+
+    state = AsyncData(await _storage.recordReview(
+      category: category.id,
+      questionId: questionId,
+      spacedRep: result.stats,
+      wasCorrect: result.wasCorrect,
+    ));
+  }
+
   Future<void> toggleBookmark({
     required Category category,
     required int questionId,
@@ -42,6 +67,18 @@ class ProgressNotifier extends AsyncNotifier<UserProgress> {
     state = AsyncData(await _storage.toggleBookmark(
       category: category.id,
       questionId: questionId,
+    ));
+  }
+
+  Future<void> saveNotes({
+    required Category category,
+    required int questionId,
+    required String notes,
+  }) async {
+    state = AsyncData(await _storage.saveQuestionNotes(
+      category: category.id,
+      questionId: questionId,
+      notes: notes,
     ));
   }
 

@@ -300,6 +300,103 @@ void main() {
     });
   });
 
+  group('recordReview', () {
+    const schedule = SpacedRepetitionStats(
+      interval: 6,
+      easeFactor: 2.36,
+      nextReviewDate: 1700500000000,
+      repetitionNumber: 3,
+    );
+
+    test('stores the schedule and counts the attempt', () async {
+      final progress = await _storage().recordReview(
+        category: '1',
+        questionId: 42,
+        spacedRep: schedule,
+        wasCorrect: true,
+        timestamp: 1700000000000,
+      );
+
+      final stats = progress.questionStats['cat1_42']!;
+      expect(stats.attempts, 1);
+      expect(stats.correct, 1);
+      expect(stats.lastCorrect, isTrue);
+      expect(stats.spacedRep!.interval, 6);
+      expect(stats.spacedRep!.repetitionNumber, 3);
+    });
+
+    test('a failed review counts as an attempt but not a correct one', () async {
+      final progress = await _storage().recordReview(
+        category: '1',
+        questionId: 42,
+        spacedRep: schedule,
+        wasCorrect: false,
+      );
+
+      final stats = progress.questionStats['cat1_42']!;
+      expect(stats.attempts, 1);
+      expect(stats.correct, 0);
+      expect(stats.lastCorrect, isFalse);
+    });
+
+    test('keeps the bookmark and notes across a review', () async {
+      final storage = _storage();
+      await storage.toggleBookmark(category: '1', questionId: 42);
+      await storage.saveQuestionNotes(
+          category: '1', questionId: 42, notes: 'rever isto');
+
+      final progress = await storage.recordReview(
+        category: '1',
+        questionId: 42,
+        spacedRep: schedule,
+        wasCorrect: true,
+      );
+
+      final stats = progress.questionStats['cat1_42']!;
+      expect(stats.bookmarked, isTrue);
+      expect(stats.notes, 'rever isto');
+      expect(stats.spacedRep, isNotNull);
+    });
+
+    test('the schedule round-trips through storage', () async {
+      await _storage().recordReview(
+        category: '1',
+        questionId: 42,
+        spacedRep: schedule,
+        wasCorrect: true,
+      );
+
+      final reread = (await _storage().read())!.questionStats['cat1_42']!;
+      expect(reread.spacedRep!.interval, schedule.interval);
+      expect(reread.spacedRep!.easeFactor, schedule.easeFactor);
+      expect(reread.spacedRep!.nextReviewDate, schedule.nextReviewDate);
+      expect(reread.spacedRep!.repetitionNumber, schedule.repetitionNumber);
+    });
+  });
+
+  group('saveQuestionNotes', () {
+    test('saves notes on a question never answered', () async {
+      final progress = await _storage().saveQuestionNotes(
+          category: '2', questionId: 7, notes: 'ver diagrama');
+
+      expect(progress.questionStats['cat2_7']!.notes, 'ver diagrama');
+      expect(progress.questionStats['cat2_7']!.attempts, 0);
+    });
+
+    test('replaces existing notes without touching the stats', () async {
+      final storage = _storage();
+      await storage.recordQuestionAttempt(
+          category: '2', questionId: 7, correct: true);
+      await storage.saveQuestionNotes(
+          category: '2', questionId: 7, notes: 'primeira');
+      final progress = await storage.saveQuestionNotes(
+          category: '2', questionId: 7, notes: 'segunda');
+
+      expect(progress.questionStats['cat2_7']!.notes, 'segunda');
+      expect(progress.questionStats['cat2_7']!.attempts, 1);
+    });
+  });
+
   group('toggleBookmark', () {
     test('bookmarks a question never answered', () async {
       final progress =
