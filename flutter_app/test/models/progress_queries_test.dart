@@ -136,44 +136,6 @@ void main() {
     });
   });
 
-  group('dueForReview', () {
-    SpacedRepetitionStats due(int at) => SpacedRepetitionStats(
-          interval: 1,
-          easeFactor: 2.5,
-          nextReviewDate: at,
-          repetitionNumber: 1,
-        );
-
-    test('includes questions whose review date has passed', () {
-      final progress = _progress({
-        'cat1_1': _stats(attempts: 1, correct: 1, spacedRep: due(500)),
-        'cat1_2': _stats(attempts: 1, correct: 1, spacedRep: due(2000)),
-      });
-
-      expect(
-        dueForReview(progress, '1', now: 1000).map((r) => r.questionId),
-        [1],
-      );
-    });
-
-    test('includes an answered question that was never scheduled', () {
-      final progress = _progress({
-        'cat1_1': _stats(attempts: 1, correct: 1),
-      });
-
-      expect(dueForReview(progress, '1', now: 1000), hasLength(1));
-    });
-
-    test('excludes a question only ever bookmarked', () {
-      // Nothing has been studied, so there is nothing to review.
-      final progress = _progress({
-        'cat1_1': _stats(bookmarked: true, bookmarkedAt: 1),
-      });
-
-      expect(dueForReview(progress, '1', now: 1000), isEmpty);
-    });
-  });
-
   group('passRate', () {
     test('is zero before any exam is taken', () {
       expect(passRate(_progress({})), 0);

@@ -1,5 +1,4 @@
 import 'progress.dart';
-import '../services/spaced_repetition.dart';
 
 /// Read-only views over a loaded [UserProgress].
 ///
@@ -60,20 +59,6 @@ List<QuestionRecord> bookmarkedQuestions(UserProgress progress) {
     ..sort((a, b) =>
         (b.stats.bookmarkedAt ?? 0).compareTo(a.stats.bookmarkedAt ?? 0));
   return marked;
-}
-
-/// Questions in [category] whose review is due, including ones never seen.
-List<QuestionRecord> dueForReview(
-  UserProgress progress,
-  String category, {
-  int? now,
-}) {
-  return _records(progress)
-      .where((r) =>
-          r.category == category &&
-          r.stats.attempts > 0 &&
-          isReviewDue(r.stats.spacedRep, now: now))
-      .toList();
 }
 
 class CategoryProgress {

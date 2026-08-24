@@ -356,6 +356,18 @@ class _CategoryTile extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(height: 4),
+            // Tertiary by design: the scheduler is most useful once there is
+            // some history, so it should not compete with Estudar on day one.
+            TextButton.icon(
+              style: TextButton.styleFrom(
+                foregroundColor: accentOnSurface,
+                minimumSize: const Size(double.infinity, 40),
+              ),
+              onPressed: () => context.push('/review/${category.name}'),
+              icon: const Icon(Icons.psychology_outlined, size: 18),
+              label: const Text('Rever'),
+            ),
           ],
         ),
       ),

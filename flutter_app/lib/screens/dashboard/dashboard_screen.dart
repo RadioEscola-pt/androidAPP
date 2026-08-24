@@ -8,6 +8,7 @@ import '../../models/progress_queries.dart';
 import '../../models/question.dart';
 import '../../providers/progress_providers.dart';
 import '../../providers/question_providers.dart';
+import '../../services/question_selector.dart';
 import '../../theme.dart';
 
 /// Progress overview: streak, exam record, per-category mastery, what is due
@@ -122,7 +123,13 @@ class _Dashboard extends StatelessWidget {
               category.id,
               bank[category]?.length ?? 0,
             ),
-            due: dueForReview(progress, category.id).length,
+            // The selector's definition, so the number here is the work the
+            // review session will actually serve.
+            due: dueCount(
+              questions: bank[category] ?? const [],
+              progress: progress,
+              category: category.id,
+            ),
           ),
           const SizedBox(height: 8),
         ],
@@ -328,6 +335,20 @@ class _CategoryRow extends StatelessWidget {
     final colorScheme = Theme.of(context).colorScheme;
     final accent = categoryAccentColor(category.index);
 
+    // The due count is the reason to act, so the row that shows it is what
+    // starts the session.
+    return InkWell(
+      onTap: () => context.push('/review/${category.name}'),
+      borderRadius: BorderRadius.circular(radiusS),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 6),
+        child: _content(context, colorScheme, accent),
+      ),
+    );
+  }
+
+  Widget _content(
+      BuildContext context, ColorScheme colorScheme, Color accent) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -361,6 +382,9 @@ class _CategoryRow extends StatelessWidget {
                 color: colorScheme.onSurfaceVariant,
               ),
             ),
+            const SizedBox(width: 4),
+            Icon(Icons.chevron_right,
+                size: 16, color: colorScheme.onSurfaceVariant),
           ],
         ),
         const SizedBox(height: 6),

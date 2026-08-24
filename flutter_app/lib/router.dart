@@ -5,6 +5,7 @@ import 'providers/question_providers.dart';
 import 'screens/bookmarks/bookmarks_screen.dart';
 import 'screens/dashboard/dashboard_screen.dart';
 import 'screens/home_screen.dart';
+import 'screens/review/review_screen.dart';
 import 'screens/study/study_screen.dart';
 import 'screens/exam/exam_screen.dart';
 
@@ -35,6 +36,16 @@ final routerProvider = Provider<GoRouter>((ref) {
             state.pathParameters['category']!,
           );
           return StudyScreen(category: category);
+        },
+      ),
+      GoRoute(
+        path: '/review/:category',
+        name: 'review',
+        builder: (context, state) {
+          final category = Category.values.byName(
+            state.pathParameters['category']!,
+          );
+          return ReviewScreen(category: category);
         },
       ),
       GoRoute(
