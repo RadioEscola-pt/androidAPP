@@ -1,11 +1,11 @@
 {
-    "name": "escola_radio_amador",
-    "short_name": "escola_radio_amador",
+    "name": "Rádio Escola",
+    "short_name": "Rádio Escola",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#FF9A17",
+    "theme_color": "#FF9A17",
+    "description": "Prepara-te para o exame de rádio amador — estuda ao teu ritmo ou simula um exame (40 perguntas, 60 min).",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
