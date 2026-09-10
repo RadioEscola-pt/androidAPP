@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:escola_radio_amador/models/progress.dart';
-import 'package:escola_radio_amador/models/progress_queries.dart';
+import 'package:radio_escola/models/progress.dart';
+import 'package:radio_escola/models/progress_queries.dart';
 
 UserProgress _progress(Map<String, QuestionStats> stats, {UserStats? user}) {
   return UserProgress(

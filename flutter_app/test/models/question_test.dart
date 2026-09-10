@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:escola_radio_amador/models/question.dart';
+import 'package:radio_escola/models/question.dart';
 
 void main() {
   group('Question.fromJson', () {

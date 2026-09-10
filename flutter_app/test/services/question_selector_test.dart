@@ -3,9 +3,9 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:escola_radio_amador/models/progress.dart';
-import 'package:escola_radio_amador/models/question.dart';
-import 'package:escola_radio_amador/services/question_selector.dart';
+import 'package:radio_escola/models/progress.dart';
+import 'package:radio_escola/models/question.dart';
+import 'package:radio_escola/services/question_selector.dart';
 
 const _now = 1700000000000;
 const _day = Duration.millisecondsPerDay;

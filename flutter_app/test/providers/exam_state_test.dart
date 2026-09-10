@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:escola_radio_amador/models/exam_config.dart';
-import 'package:escola_radio_amador/models/question.dart';
-import 'package:escola_radio_amador/providers/question_providers.dart';
+import 'package:radio_escola/models/exam_config.dart';
+import 'package:radio_escola/models/question.dart';
+import 'package:radio_escola/providers/question_providers.dart';
 
 /// The real ANACOM rules, matching what the pipeline generates.
 const _config = ExamConfig(

@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:escola_radio_amador/models/progress.dart';
-import 'package:escola_radio_amador/services/progress_storage.dart';
+import 'package:radio_escola/models/progress.dart';
+import 'package:radio_escola/services/progress_storage.dart';
 
 ProgressStorage _storage() =>
     ProgressStorage(prefs: SharedPreferences.getInstance);

@@ -3,8 +3,8 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:escola_radio_amador/models/progress.dart';
-import 'package:escola_radio_amador/services/spaced_repetition.dart';
+import 'package:radio_escola/models/progress.dart';
+import 'package:radio_escola/services/spaced_repetition.dart';
 
 void main() {
   group('parity with the website implementation', () {
