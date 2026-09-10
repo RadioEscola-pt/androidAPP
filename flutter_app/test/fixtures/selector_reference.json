@@ -1,0 +1,286 @@
+{
+  "now": 1700000000000,
+  "cases": {
+    "5": [
+      {
+        "id": 2,
+        "priority": "due-now",
+        "daysUntilDue": -9
+      },
+      {
+        "id": 3,
+        "priority": "due-now",
+        "daysUntilDue": -4
+      },
+      {
+        "id": 1,
+        "priority": "due-now",
+        "daysUntilDue": -1
+      },
+      {
+        "id": 16,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 17,
+        "priority": "new",
+        "daysUntilDue": 0
+      }
+    ],
+    "20": [
+      {
+        "id": 2,
+        "priority": "due-now",
+        "daysUntilDue": -9
+      },
+      {
+        "id": 3,
+        "priority": "due-now",
+        "daysUntilDue": -4
+      },
+      {
+        "id": 1,
+        "priority": "due-now",
+        "daysUntilDue": -1
+      },
+      {
+        "id": 16,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 17,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 18,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 19,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 20,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 21,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 22,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 23,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 24,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 25,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 26,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 27,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 28,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 29,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 30,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 12,
+        "priority": "due-soon",
+        "daysUntilDue": -20
+      },
+      {
+        "id": 13,
+        "priority": "due-soon",
+        "daysUntilDue": -9
+      }
+    ],
+    "30": [
+      {
+        "id": 2,
+        "priority": "due-now",
+        "daysUntilDue": -9
+      },
+      {
+        "id": 3,
+        "priority": "due-now",
+        "daysUntilDue": -4
+      },
+      {
+        "id": 1,
+        "priority": "due-now",
+        "daysUntilDue": -1
+      },
+      {
+        "id": 16,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 17,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 18,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 19,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 20,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 21,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 22,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 23,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 24,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 25,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 26,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 27,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 28,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 29,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 30,
+        "priority": "new",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 12,
+        "priority": "due-soon",
+        "daysUntilDue": -20
+      },
+      {
+        "id": 13,
+        "priority": "due-soon",
+        "daysUntilDue": -9
+      },
+      {
+        "id": 5,
+        "priority": "due-soon",
+        "daysUntilDue": 1
+      },
+      {
+        "id": 4,
+        "priority": "due-soon",
+        "daysUntilDue": 2
+      },
+      {
+        "id": 6,
+        "priority": "due-soon",
+        "daysUntilDue": 3
+      },
+      {
+        "id": 9,
+        "priority": "weak",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 11,
+        "priority": "weak",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 10,
+        "priority": "weak",
+        "daysUntilDue": 0
+      },
+      {
+        "id": 7,
+        "priority": "later",
+        "daysUntilDue": 30
+      },
+      {
+        "id": 8,
+        "priority": "later",
+        "daysUntilDue": 10
+      },
+      {
+        "id": 14,
+        "priority": "later",
+        "daysUntilDue": 6
+      },
+      {
+        "id": 15,
+        "priority": "later",
+        "daysUntilDue": 5
+      }
+    ]
+  }
+}
