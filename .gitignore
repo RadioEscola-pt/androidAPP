@@ -16,3 +16,10 @@ local.properties
 
 # Claude Code local settings and agent worktrees
 .claude/
+
+# Signing keys — never commit these. Losing or leaking the keystore means
+# losing the ability to publish updates to an already-listed app.
+# See https://flutter.dev/to/reference-keystore
+*.jks
+*.keystore
+key.properties

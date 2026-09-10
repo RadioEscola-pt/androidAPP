@@ -356,17 +356,20 @@ class _CategoryTile extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 4),
-            // Tertiary by design: the scheduler is most useful once there is
-            // some history, so it should not compete with Estudar on day one.
-            TextButton.icon(
-              style: TextButton.styleFrom(
+            const SizedBox(height: 12),
+            // Full width rather than a third column: "Simular Exame" already
+            // needs a FittedBox to fit two words in half a tile, so a third
+            // button on that row would not survive a narrow phone.
+            OutlinedButton(
+              style: OutlinedButton.styleFrom(
                 foregroundColor: accentOnSurface,
-                minimumSize: const Size(double.infinity, 40),
+                side: BorderSide(color: accentOnSurface.withAlpha(120)),
               ),
               onPressed: () => context.push('/review/${category.name}'),
-              icon: const Icon(Icons.psychology_outlined, size: 18),
-              label: const Text('Rever'),
+              child: const FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text('Rever'),
+              ),
             ),
           ],
         ),

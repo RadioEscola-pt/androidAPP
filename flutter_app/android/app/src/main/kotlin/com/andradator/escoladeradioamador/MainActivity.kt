@@ -1,4 +1,4 @@
-package com.radioescola.escola_radio_amador
+package com.andradator.escoladeradioamador
 
 import io.flutter.embedding.android.FlutterActivity
 

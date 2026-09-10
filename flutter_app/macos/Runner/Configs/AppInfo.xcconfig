@@ -8,7 +8,7 @@
 PRODUCT_NAME = escola_radio_amador
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.radioescola.escolaRadioAmador
+PRODUCT_BUNDLE_IDENTIFIER = com.andradator.escoladeradioamador
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 com.radioescola. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 com.andradator. All rights reserved.
