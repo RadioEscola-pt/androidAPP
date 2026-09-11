@@ -1,7 +1,7 @@
 name: radio_escola
 description: "Escola de Radio Amador - App de estudo para exame de radioamador"
 publish_to: 'none'
-version: 1.0.0+1
+version: 2.0.0+112
 
 environment:
   sdk: ^3.11.4

@@ -6,8 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Two Android projects live here, and only one is under development:
 
-- `/` — the **legacy native Android app** (Java/Gradle, `app/`), published on Play at
-  `versionCode 109` / `1.0.9`. Frozen; kept for its signing key and release history.
+- `/` — the **legacy native Android app** (Java/Gradle, `app/`). Frozen; kept for its signing
+  key and release history. Its `app/build.gradle` reads `versionCode 109` / `1.0.9`, but **the
+  live Play listing is at versionCode 111** — two releases were published without the bump
+  landing here, so this tree is not the record of what is on Play. Trust the Play Console.
 - `flutter_app/` — the **Flutter rewrite** that replaces it. All work happens here.
 
 ## Commands
@@ -107,12 +109,15 @@ Check a build matches with
 `key.jks` is gitignored (with `*.keystore` and `key.properties`) and has never been committed.
 There is no backup: losing it means never updating the published app again.
 
-> **Two things block a publishable release today.**
-> 1. `build.gradle.kts` still signs release with the debug key (the `TODO` in
->    `buildTypes.release`). Wiring it up means a gitignored `key.properties` holding the
->    passwords and `storeFile=../../key.jks`, read by the Gradle config.
-> 2. `pubspec.yaml` is at `version: 1.0.0+1` — versionCode **1**, below the published **109**.
->    Play rejects it until it exceeds 109.
+> **One thing still blocks a publishable release.** `build.gradle.kts` signs release with the
+> debug key (the `TODO` in `buildTypes.release`). Wiring it up means a gitignored
+> `key.properties` holding the passwords and `storeFile=../../key.jks`, read by the Gradle
+> config.
+>
+> Versioning is handled: `pubspec.yaml` is at `version: 2.0.0+112` — a major bump because the
+> Flutter app replaces the native one wholesale, and versionCode **112** clears the published
+> **111**. Re-check the Play Console before each build rather than trusting `app/build.gradle`;
+> this repo has already fallen behind the listing once.
 
 ## Gotchas
 
